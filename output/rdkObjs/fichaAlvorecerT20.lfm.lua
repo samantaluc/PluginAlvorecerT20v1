@@ -4447,7 +4447,7 @@ local function constructNew_frmAlvorecerT20()
     obj.richEdit2:setTop(25);
     obj.richEdit2:setWidth(1280);
     obj.richEdit2:setHeight(720);
-    obj.richEdit2:setField("background");
+    obj.richEdit2:setField("historico");
     lfm_setPropAsString(obj.richEdit2, "backgroundColor",  "#333333");
     lfm_setPropAsString(obj.richEdit2, "defaultFontSize",  "12");
     lfm_setPropAsString(obj.richEdit2, "defaultFontColor",  "white");

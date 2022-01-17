@@ -63,7 +63,7 @@ local function constructNew_frmhistoricodeModificacoes()
     obj.richEdit1:setTop(25);
     obj.richEdit1:setWidth(1280);
     obj.richEdit1:setHeight(720);
-    obj.richEdit1:setField("background");
+    obj.richEdit1:setField("historico");
     lfm_setPropAsString(obj.richEdit1, "backgroundColor",  "#333333");
     lfm_setPropAsString(obj.richEdit1, "defaultFontSize",  "12");
     lfm_setPropAsString(obj.richEdit1, "defaultFontColor",  "white");
