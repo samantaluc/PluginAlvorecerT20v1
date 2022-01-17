@@ -1806,7 +1806,7 @@ local function constructNew_frmAlvorecerT20()
     obj.dataLink8:setParent(obj.scrollBox1);
     obj.dataLink8:setFields({'modificadorDeDestreza', 'modificadorDeForca', 'modificadorDeCarisma', 'modificadorDeSabedoria',
         'modificadorDeConstituicao', 'modificadorDeInteligencia',
-         'atletismo', 'atuacao', 'cavalgar', 'cura', 'diplomacia', 'enganacao', 'fortitude',
+         'atletismo', 'atuacao', 'cavalgar', 'curar', 'diplomacia', 'enganacao', 'fortitude',
         'iniciativa', 'intimidacao', 'intuicao', 'investigacao', 'luta', 'percepcao', 
         'pontaria', 'reflexos', 'seducao', 'sobrevivencia', 'vontade'});
     obj.dataLink8:setName("dataLink8");
@@ -4669,9 +4669,17 @@ local function constructNew_frmAlvorecerT20()
                                     if sheet.furtividadeA  then                       
                                     sheet.modificadorDeFurtividade = sheet.furtividadeA;
                                     end;
-                                    if sheet.ladinagemA  then                       
-                                    sheet.modificadorDeLadinagem = sheet.ladinagemA;
-                                    end;
+                                    local valorLadinagem = tonumber(sheet.ladinagem);                      
+            
+                                            if (valorLadinagem ~= 0) then
+                                                   sheet.modificadorDeLadinagem = sheet.ladinagemA; 
+            
+                                                    if sheet.modificadorDeLadinagem > 0 then
+                                                    sheet.modificadorDeLadinagem = "+" .. sheet.modificadorDeLadinagem;
+                                            end;
+                                            else
+                                                    sheet.modificadorDeLadinagem = 0;
+                                            end;
         end, obj);
 
     obj._e_event11 = obj.dataLink10:addEventListener("onChange",

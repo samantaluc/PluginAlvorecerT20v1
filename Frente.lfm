@@ -468,7 +468,7 @@
         <!--Pericias Comuns-->
         <dataLink fields="{'modificadorDeDestreza', 'modificadorDeForca', 'modificadorDeCarisma', 'modificadorDeSabedoria',
         'modificadorDeConstituicao', 'modificadorDeInteligencia',
-         'atletismo', 'atuacao', 'cavalgar', 'cura', 'diplomacia', 'enganacao', 'fortitude',
+         'atletismo', 'atuacao', 'cavalgar', 'curar', 'diplomacia', 'enganacao', 'fortitude',
         'iniciativa', 'intimidacao', 'intuicao', 'investigacao', 'luta', 'percepcao', 
         'pontaria', 'reflexos', 'seducao', 'sobrevivencia', 'vontade'}">
                 <event name="onChange">
@@ -609,9 +609,18 @@
                         if sheet.furtividadeA  then                       
                         sheet.modificadorDeFurtividade = sheet.furtividadeA;
                         end;
-                        if sheet.ladinagemA  then                       
-                        sheet.modificadorDeLadinagem = sheet.ladinagemA;
-                        end;
+                        local valorLadinagem = tonumber(sheet.ladinagem);                      
+
+                                if (valorLadinagem ~= 0) then
+                                       sheet.modificadorDeLadinagem = sheet.ladinagemA; 
+
+                                        if sheet.modificadorDeLadinagem > 0 then
+                                        sheet.modificadorDeLadinagem = "+" .. sheet.modificadorDeLadinagem;
+                                end;
+                                else
+                                        sheet.modificadorDeLadinagem = 0;
+                                end;
+                        
                 </event>
         </dataLink>
         <!-- Pericias que precisam ser treinadas-->
