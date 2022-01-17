@@ -4195,7 +4195,7 @@ local function constructNew_frmAlvorecerT20()
 
     obj._e_event1 = obj.button1:addEventListener("onClick",
         function (_)
-            GUI.openInBrowser('https://github.com/rrpgfirecast/firecast/blob/master/Plugins/Sheets/Ficha%20Tormenta%2020/output/Ficha%20Tormenta%2020.rpk?raw=true')
+            GUI.openInBrowser('https://github.com/samantaluc/PluginAlvorecerT20v1/blob/master/output/PluginAlvorecerT20.rpk?raw=true')
         end, obj);
 
     obj._e_event2 = obj.dataLink1:addEventListener("onChange",
