@@ -29,8 +29,14 @@ local function constructNew_frmEquipamentos()
     obj:setName("frmEquipamentos");
     obj:setAlign("client");
 
+    obj.rectangle1 = GUI.fromHandle(_obj_newObject("rectangle"));
+    obj.rectangle1:setParent(obj);
+    obj.rectangle1:setAlign("client");
+    obj.rectangle1:setColor("black");
+    obj.rectangle1:setName("rectangle1");
+
     obj.scrollBox1 = GUI.fromHandle(_obj_newObject("scrollBox"));
-    obj.scrollBox1:setParent(obj);
+    obj.scrollBox1:setParent(obj.rectangle1);
     obj.scrollBox1:setAlign("client");
     obj.scrollBox1:setName("scrollBox1");
 
@@ -791,17 +797,17 @@ local function constructNew_frmEquipamentos()
     obj.boxDetalhesDoItem:setAlign("client");
     obj.boxDetalhesDoItem:setMargins({left=4, right=4, top=4});
 
-    obj.rectangle1 = GUI.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle1:setParent(obj.boxDetalhesDoItem);
-    obj.rectangle1:setAlign("client");
-    obj.rectangle1:setColor("black");
-    obj.rectangle1:setXradius(10);
-    obj.rectangle1:setYradius(10);
-    obj.rectangle1:setPadding({top=3, left=3, right=3, bottom=3});
-    obj.rectangle1:setName("rectangle1");
+    obj.rectangle2 = GUI.fromHandle(_obj_newObject("rectangle"));
+    obj.rectangle2:setParent(obj.boxDetalhesDoItem);
+    obj.rectangle2:setAlign("client");
+    obj.rectangle2:setColor("black");
+    obj.rectangle2:setXradius(10);
+    obj.rectangle2:setYradius(10);
+    obj.rectangle2:setPadding({top=3, left=3, right=3, bottom=3});
+    obj.rectangle2:setName("rectangle2");
 
     obj.scrollBox2 = GUI.fromHandle(_obj_newObject("scrollBox"));
-    obj.scrollBox2:setParent(obj.rectangle1);
+    obj.scrollBox2:setParent(obj.rectangle2);
     obj.scrollBox2:setAlign("client");
     obj.scrollBox2:setName("scrollBox2");
 
@@ -848,6 +854,7 @@ local function constructNew_frmEquipamentos()
 
     obj.edit35 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit35:setParent(obj.layout37);
+    obj.edit35:setFontSize(14);
     obj.edit35:setAlign("top");
     obj.edit35:setField("campoSubTitulo");
     obj.edit35:setHeight(30);
@@ -855,6 +862,7 @@ local function constructNew_frmEquipamentos()
 
     obj.textEditor1 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor1:setParent(obj.layout37);
+    obj.textEditor1:setFontSize(14);
     obj.textEditor1:setAlign("top");
     obj.textEditor1:setField("campoTextoGrande");
     obj.textEditor1:setHeight(100);
@@ -871,7 +879,7 @@ local function constructNew_frmEquipamentos()
     obj.label35 = GUI.fromHandle(_obj_newObject("label"));
     obj.label35:setParent(obj.layout38);
     obj.label35:setAlign("left");
-    obj.label35:setText("Dinheiro: ");
+    obj.label35:setText("Dólares: ");
     obj.label35:setAutoSize(true);
     obj.label35:setName("label35");
 
@@ -881,6 +889,28 @@ local function constructNew_frmEquipamentos()
     obj.edit36:setHorzTextAlign("center");
     obj.edit36:setField("dinheiro");
     obj.edit36:setName("edit36");
+
+    obj.layout39 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout39:setParent(obj.scrollBox1);
+    obj.layout39:setLeft(250);
+    obj.layout39:setTop(510);
+    obj.layout39:setHeight(25);
+    obj.layout39:setWidth(200);
+    obj.layout39:setName("layout39");
+
+    obj.label36 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label36:setParent(obj.layout39);
+    obj.label36:setAlign("left");
+    obj.label36:setText("Tibares: ");
+    obj.label36:setAutoSize(true);
+    obj.label36:setName("label36");
+
+    obj.edit37 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit37:setParent(obj.layout39);
+    obj.edit37:setAlign("client");
+    obj.edit37:setHorzTextAlign("center");
+    obj.edit37:setField("tibardinheiro");
+    obj.edit37:setName("edit37");
 
     obj._e_event0 = obj.button1:addEventListener("onClick",
         function (_)
@@ -923,6 +953,7 @@ local function constructNew_frmEquipamentos()
 
         if self.label33 ~= nil then self.label33:destroy(); self.label33 = nil; end;
         if self.label14 ~= nil then self.label14:destroy(); self.label14 = nil; end;
+        if self.layout39 ~= nil then self.layout39:destroy(); self.layout39 = nil; end;
         if self.layout15 ~= nil then self.layout15:destroy(); self.layout15 = nil; end;
         if self.layout10 ~= nil then self.layout10:destroy(); self.layout10 = nil; end;
         if self.edit36 ~= nil then self.edit36:destroy(); self.edit36 = nil; end;
@@ -949,8 +980,8 @@ local function constructNew_frmEquipamentos()
         if self.label35 ~= nil then self.label35:destroy(); self.label35 = nil; end;
         if self.layout1 ~= nil then self.layout1:destroy(); self.layout1 = nil; end;
         if self.label27 ~= nil then self.label27:destroy(); self.label27 = nil; end;
-        if self.layout23 ~= nil then self.layout23:destroy(); self.layout23 = nil; end;
         if self.rectangle1 ~= nil then self.rectangle1:destroy(); self.rectangle1 = nil; end;
+        if self.layout23 ~= nil then self.layout23:destroy(); self.layout23 = nil; end;
         if self.rclListaDosItens ~= nil then self.rclListaDosItens:destroy(); self.rclListaDosItens = nil; end;
         if self.edit24 ~= nil then self.edit24:destroy(); self.edit24 = nil; end;
         if self.layout12 ~= nil then self.layout12:destroy(); self.layout12 = nil; end;
@@ -1001,6 +1032,9 @@ local function constructNew_frmEquipamentos()
         if self.edit23 ~= nil then self.edit23:destroy(); self.edit23 = nil; end;
         if self.layout18 ~= nil then self.layout18:destroy(); self.layout18 = nil; end;
         if self.label29 ~= nil then self.label29:destroy(); self.label29 = nil; end;
+        if self.label36 ~= nil then self.label36:destroy(); self.label36 = nil; end;
+        if self.rectangle2 ~= nil then self.rectangle2:destroy(); self.rectangle2 = nil; end;
+        if self.edit37 ~= nil then self.edit37:destroy(); self.edit37 = nil; end;
         if self.label21 ~= nil then self.label21:destroy(); self.label21 = nil; end;
         if self.label30 ~= nil then self.label30:destroy(); self.label30 = nil; end;
         if self.layout31 ~= nil then self.layout31:destroy(); self.layout31 = nil; end;

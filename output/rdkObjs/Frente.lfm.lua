@@ -30,6 +30,12 @@ local function constructNew_frmFrente()
     obj:setTheme("dark");
     obj:setAlign("client");
 
+    obj.rectangle1 = GUI.fromHandle(_obj_newObject("rectangle"));
+    obj.rectangle1:setParent(obj);
+    obj.rectangle1:setAlign("client");
+    obj.rectangle1:setColor("black");
+    obj.rectangle1:setName("rectangle1");
+
     obj.scrollBox1 = GUI.fromHandle(_obj_newObject("scrollBox"));
     obj.scrollBox1:setParent(obj);
     obj.scrollBox1:setAlign("client");
@@ -1435,19 +1441,19 @@ local function constructNew_frmFrente()
     obj.label105:setHorzTextAlign("center");
     obj.label105:setName("label105");
 
-    obj.rectangle1 = GUI.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle1:setParent(obj.scrollBox1);
-    obj.rectangle1:setLeft(700);
-    obj.rectangle1:setTop(160);
-    obj.rectangle1:setWidth(350);
-    obj.rectangle1:setHeight(350);
-    obj.rectangle1:setColor("black");
-    obj.rectangle1:setStrokeColor("white");
-    obj.rectangle1:setStrokeSize(1);
-    obj.rectangle1:setName("rectangle1");
+    obj.rectangle2 = GUI.fromHandle(_obj_newObject("rectangle"));
+    obj.rectangle2:setParent(obj.scrollBox1);
+    obj.rectangle2:setLeft(700);
+    obj.rectangle2:setTop(160);
+    obj.rectangle2:setWidth(350);
+    obj.rectangle2:setHeight(350);
+    obj.rectangle2:setColor("black");
+    obj.rectangle2:setStrokeColor("white");
+    obj.rectangle2:setStrokeSize(1);
+    obj.rectangle2:setName("rectangle2");
 
     obj.label106 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label106:setParent(obj.rectangle1);
+    obj.label106:setParent(obj.rectangle2);
     obj.label106:setLeft(3);
     obj.label106:setTop(1);
     obj.label106:setWidth(150);
@@ -1456,7 +1462,7 @@ local function constructNew_frmFrente()
     obj.label106:setName("label106");
 
     obj.label107 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label107:setParent(obj.rectangle1);
+    obj.label107:setParent(obj.rectangle2);
     obj.label107:setLeft(100);
     obj.label107:setTop(40);
     obj.label107:setWidth(100);
@@ -1466,7 +1472,7 @@ local function constructNew_frmFrente()
     obj.label107:setName("label107");
 
     obj.image1 = GUI.fromHandle(_obj_newObject("image"));
-    obj.image1:setParent(obj.rectangle1);
+    obj.image1:setParent(obj.rectangle2);
     obj.image1:setAlign("client");
     obj.image1:setField("avatar");
     obj.image1:setEditable(true);
@@ -2087,6 +2093,7 @@ local function constructNew_frmFrente()
         if self.label56 ~= nil then self.label56:destroy(); self.label56 = nil; end;
         if self.label29 ~= nil then self.label29:destroy(); self.label29 = nil; end;
         if self.dataLink7 ~= nil then self.dataLink7:destroy(); self.dataLink7 = nil; end;
+        if self.rectangle2 ~= nil then self.rectangle2:destroy(); self.rectangle2 = nil; end;
         if self.label21 ~= nil then self.label21:destroy(); self.label21 = nil; end;
         if self.label91 ~= nil then self.label91:destroy(); self.label91 = nil; end;
         if self.label30 ~= nil then self.label30:destroy(); self.label30 = nil; end;

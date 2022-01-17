@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form name="frmAtributosPericias" align="client">       
+<form name="frmAtributosPericias" align="client">  
+<rectangle align="client" color="black"/>     
 	<scrollBox align="client">
         <style>
                 label {

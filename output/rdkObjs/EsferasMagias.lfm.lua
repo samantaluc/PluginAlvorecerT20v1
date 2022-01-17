@@ -30,6 +30,12 @@ local function constructNew_frmEsferasMagias()
     obj:setTheme("dark");
     obj:setAlign("client");
 
+    obj.rectangle1 = GUI.fromHandle(_obj_newObject("rectangle"));
+    obj.rectangle1:setParent(obj);
+    obj.rectangle1:setAlign("client");
+    obj.rectangle1:setColor("black");
+    obj.rectangle1:setName("rectangle1");
+
     obj.scrollBox1 = GUI.fromHandle(_obj_newObject("scrollBox"));
     obj.scrollBox1:setParent(obj);
     obj.scrollBox1:setAlign("client");
@@ -81,17 +87,17 @@ local function constructNew_frmEsferasMagias()
     obj.boxDetalhedaEsfera:setAlign("client");
     obj.boxDetalhedaEsfera:setMargins({left=4, right=4, top=2});
 
-    obj.rectangle1 = GUI.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle1:setParent(obj.boxDetalhedaEsfera);
-    obj.rectangle1:setAlign("client");
-    obj.rectangle1:setColor("black");
-    obj.rectangle1:setXradius(10);
-    obj.rectangle1:setYradius(10);
-    obj.rectangle1:setPadding({top=3, left=3, right=3, bottom=3});
-    obj.rectangle1:setName("rectangle1");
+    obj.rectangle2 = GUI.fromHandle(_obj_newObject("rectangle"));
+    obj.rectangle2:setParent(obj.boxDetalhedaEsfera);
+    obj.rectangle2:setAlign("client");
+    obj.rectangle2:setColor("black");
+    obj.rectangle2:setXradius(10);
+    obj.rectangle2:setYradius(10);
+    obj.rectangle2:setPadding({top=3, left=3, right=3, bottom=3});
+    obj.rectangle2:setName("rectangle2");
 
     obj.scrollBox3 = GUI.fromHandle(_obj_newObject("scrollBox"));
-    obj.scrollBox3:setParent(obj.rectangle1);
+    obj.scrollBox3:setParent(obj.rectangle2);
     obj.scrollBox3:setAlign("client");
     obj.scrollBox3:setName("scrollBox3");
 
@@ -215,8 +221,9 @@ local function constructNew_frmEsferasMagias()
         if self.scrollBox4 ~= nil then self.scrollBox4:destroy(); self.scrollBox4 = nil; end;
         if self.label1 ~= nil then self.label1:destroy(); self.label1 = nil; end;
         if self.layout4 ~= nil then self.layout4:destroy(); self.layout4 = nil; end;
-        if self.scrollBox3 ~= nil then self.scrollBox3:destroy(); self.scrollBox3 = nil; end;
+        if self.rectangle2 ~= nil then self.rectangle2:destroy(); self.rectangle2 = nil; end;
         if self.rcllistaEsfera ~= nil then self.rcllistaEsfera:destroy(); self.rcllistaEsfera = nil; end;
+        if self.scrollBox3 ~= nil then self.scrollBox3:destroy(); self.scrollBox3 = nil; end;
         if self.button2 ~= nil then self.button2:destroy(); self.button2 = nil; end;
         if self.image1 ~= nil then self.image1:destroy(); self.image1 = nil; end;
         if self.textEditor1 ~= nil then self.textEditor1:destroy(); self.textEditor1 = nil; end;
@@ -224,9 +231,9 @@ local function constructNew_frmEsferasMagias()
         if self.edit2 ~= nil then self.edit2:destroy(); self.edit2 = nil; end;
         if self.layout1 ~= nil then self.layout1:destroy(); self.layout1 = nil; end;
         if self.scrollBox1 ~= nil then self.scrollBox1:destroy(); self.scrollBox1 = nil; end;
-        if self.edit1 ~= nil then self.edit1:destroy(); self.edit1 = nil; end;
         if self.rectangle1 ~= nil then self.rectangle1:destroy(); self.rectangle1 = nil; end;
         if self.layout2 ~= nil then self.layout2:destroy(); self.layout2 = nil; end;
+        if self.edit1 ~= nil then self.edit1:destroy(); self.edit1 = nil; end;
         if self.boxDetalhedaEsfera ~= nil then self.boxDetalhedaEsfera:destroy(); self.boxDetalhedaEsfera = nil; end;
         if self.label2 ~= nil then self.label2:destroy(); self.label2 = nil; end;
         self:_oldLFMDestroy();

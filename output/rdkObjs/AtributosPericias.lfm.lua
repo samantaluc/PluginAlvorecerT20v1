@@ -29,6 +29,12 @@ local function constructNew_frmAtributosPericias()
     obj:setName("frmAtributosPericias");
     obj:setAlign("client");
 
+    obj.rectangle1 = GUI.fromHandle(_obj_newObject("rectangle"));
+    obj.rectangle1:setParent(obj);
+    obj.rectangle1:setAlign("client");
+    obj.rectangle1:setColor("black");
+    obj.rectangle1:setName("rectangle1");
+
     obj.scrollBox1 = GUI.fromHandle(_obj_newObject("scrollBox"));
     obj.scrollBox1:setParent(obj);
     obj.scrollBox1:setAlign("client");
@@ -1195,10 +1201,11 @@ local function constructNew_frmAtributosPericias()
         if self.label35 ~= nil then self.label35:destroy(); self.label35 = nil; end;
         if self.layout1 ~= nil then self.layout1:destroy(); self.layout1 = nil; end;
         if self.label27 ~= nil then self.label27:destroy(); self.label27 = nil; end;
+        if self.rectangle1 ~= nil then self.rectangle1:destroy(); self.rectangle1 = nil; end;
         if self.layout23 ~= nil then self.layout23:destroy(); self.layout23 = nil; end;
-        if self.edit50 ~= nil then self.edit50:destroy(); self.edit50 = nil; end;
         if self.edit47 ~= nil then self.edit47:destroy(); self.edit47 = nil; end;
         if self.layout45 ~= nil then self.layout45:destroy(); self.layout45 = nil; end;
+        if self.edit50 ~= nil then self.edit50:destroy(); self.edit50 = nil; end;
         if self.edit24 ~= nil then self.edit24:destroy(); self.edit24 = nil; end;
         if self.layout12 ~= nil then self.layout12:destroy(); self.layout12 = nil; end;
         if self.edit14 ~= nil then self.edit14:destroy(); self.edit14 = nil; end;

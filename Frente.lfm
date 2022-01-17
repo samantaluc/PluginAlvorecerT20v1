@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form name="frmFrente" theme="dark" align="client"> 
+<rectangle align="client" color="black"/>
 	<scrollBox align="client">
         <!-- Aqui começa o layout da ficha -->
         <layout left="10" top="02" height="25" width="400">   
@@ -35,7 +36,7 @@
                 <edit align="client" horzTextAlign="center" field="nomeDeslocamento"/>    
         </layout>
         <layout left="300" top="90" height="25" width="490">   
-                <label align="left" text="Idiomas: " autoSize="true"/>
+                <label class="Inteligencia" align="left" text="Idiomas: " autoSize="true"/>
                 <edit align="client" horzTextAlign="center" field="nomeIdiomas"/>    
         </layout>
                 <layout left="800" top="02" height="25" width="200">   
@@ -62,42 +63,42 @@
 <!-- Atributos -->
         <layout left="10" top="90" height="80" width="200">    
                 <!-- Força -->      
-                <label align="left" text="Força: " autoSize="true"/>
+                <label class="Forca" align="left" text="Força: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeForca" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>                            
                 <layout left="250" top="90" height="80" width="200">    
                 <!-- Destreza -->      
-                <label align="left" text="Destreza: " autoSize="true"/>
+                <label class="Destreza" align="left" text="Destreza: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeDestreza" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
                 <layout left="500" top="90" height="80" width="200">    
                 <!-- Constituição -->      
-                <label align="left" text="Constituição: " autoSize="true"/>
+                <label class="Constituicao" align="left" text="Constituição: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeConstituicao" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
                 <layout left="10" top="120" height="80" width="200">    
                 <!-- Inteligência -->      
-                <label align="left" text="Inteligência: " autoSize="true"/>
+                <label class="Inteligencia" align="left" text="Inteligência: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeInteligencia" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
                 <layout left="250" top="120" height="80" width="200">    
                 <!-- Sabedoria -->      
-                <label align="left" text="Sabedoria: " autoSize="true"/>
+                <label class="Sabedoria" align="left" text="Sabedoria: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeSabedoria" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
                 <layout left="500" top="120" height="80" width="200">    
                 <!-- Carisma -->      
-                <label align="left" text="Carisma: " autoSize="true"/>
+                <label class="Carisma" align="left" text="Carisma: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeCarisma" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
@@ -105,245 +106,245 @@
 <!-- PEricias-->
         <layout left="10" top="150" height="80" width="200">    
                 <!-- Acrobacia -->      
-                <label align="left" text="Acrobacia: " autoSize="true"/>
+                <label class="Destreza" align="left" text="Acrobacia: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeAcrobacia" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
         <layout left="250" top="150" height="80" width="200">    
                 <!-- Adestramento -->      
-                <label align="left" text="Adestramento: " autoSize="true"/>
+                <label class="Carisma" align="left" text="Adestramento: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeAdestramento" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
         <layout left="500" top="150" height="80" width="200">    
                 <!-- Atletismo -->      
-                <label align="left" text="Atletismo: " autoSize="true"/>
+                <label class="Forca" align="left" text="Atletismo: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeAtletismo" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="10" top="180" height="80" width="200">    
                 <!-- Atuação -->      
-               <label align="left" text="Atuação: " autoSize="true"/>
+               <label class="Carisma" align="left" text="Atuação: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeAtuacao" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="250" top="180" height="80" width="200">    
                 <!-- Cavalgar -->      
-                <label align="left" text="Cavalgar: " autoSize="true"/>
+                <label class="Destreza" align="left" text="Cavalgar: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeCavalgar" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
         <layout left="500" top="180" height="80" width="200">    
                 <!-- Curar -->      
-                <label align="left" text="Curar: " autoSize="true"/>
+                <label class="Sabedoria" align="left" text="Curar: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeCurar" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="10" top="210" height="80" width="200">    
                 <!-- Diplomacia -->      
-               <label align="left" text="Diplomacia: " autoSize="true"/>
+               <label class="Carisma" align="left" text="Diplomacia: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeDiplomacia" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="250" top="210" height="80" width="200">    
                 <!-- Enganação -->      
-                <label align="left" text="Enganação: " autoSize="true"/>
+                <label align="left" class="Carisma" text="Enganação: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeEnganacao" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
         <layout left="500" top="210" height="80" width="200">    
                 <!-- Fortitude -->      
-                <label align="left" text="Fortitude: " autoSize="true"/>
+                <label class="Constituicao" align="left" text="Fortitude: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeFortitude" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="10" top="240" height="80" width="200">    
                 <!-- Furtividade -->      
-               <label align="left" text="Furtividade: " autoSize="true"/>
+               <label class="Destreza" align="left" text="Furtividade: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeFurtividade" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="250" top="240" height="80" width="200">    
                 <!-- Iniciativa -->      
-                <label align="left" text="Iniciativa: " autoSize="true"/>
+                <label class="Destreza" align="left" text="Iniciativa: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeIniciativa" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
         <layout left="500" top="240" height="80" width="200">    
                 <!-- Intimidação -->      
-                <label align="left" text="Intimidação: " autoSize="true"/>
+                <label class="Carisma" align="left" text="Intimidação: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeIntimidacao" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="10" top="270" height="80" width="200">    
                 <!-- Intuição -->      
-               <label align="left" text="Intuição: " autoSize="true"/>
+               <label class="Sabedoria" align="left" text="Intuição: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeIntuicao" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="250" top="270" height="80" width="200">    
                 <!-- Investigação -->      
-                <label align="left" text="Investigação: " autoSize="true"/>
+                <label class="Inteligencia" align="left" text="Investigação: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeInvestigacao" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
         <layout left="500" top="270" height="80" width="200">    
                 <!-- Jogatina -->      
-                <label align="left" text="Jogatina: " autoSize="true"/>
+                <label class="Carisma" align="left" text="Jogatina: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeJogatina" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="10" top="300" height="80" width="200">    
                 <!-- Ladinagem -->      
-               <label align="left" text="Ladinagem *: " autoSize="true"/>
+               <label class="Destreza" align="left" text="Ladinagem *: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeLadinagem" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="250" top="300" height="80" width="200">    
                 <!-- Luta -->      
-                <label align="left" text="Luta: " autoSize="true"/>
+                <label class="Forca" align="left" text="Luta: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeLuta" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
         <layout left="500" top="300" height="80" width="200">    
                 <!-- Percepção -->      
-                <label align="left" text="Percepção: " autoSize="true"/>
+                <label class="Sabedoria" align="left" text="Percepção: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDePercepcao" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="10" top="330" height="80" width="200">    
                 <!-- Pilotagem -->      
-               <label align="left" text="Pilotagem: " autoSize="true"/>
+               <label class="Destreza" align="left" text="Pilotagem: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDePilotagem" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="250" top="330" height="80" width="200">    
                 <!-- Pontaria -->      
-                <label align="left" text="Pontaria: " autoSize="true"/>
+                <label class="Destreza" align="left" text="Pontaria: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDePontaria" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
         <layout left="500" top="330" height="80" width="200">    
                 <!-- Reflexos -->      
-                <label align="left" text="Reflexos: " autoSize="true"/>
+                <label class="Destreza" align="left" text="Reflexos: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeReflexos" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="10" top="360" height="80" width="200">    
                 <!-- Religião -->      
-               <label align="left" text="Religião: " autoSize="true"/>
+               <label class="Sabedoria" align="left" text="Religião: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeReligiao" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="250" top="360" height="80" width="200">    
                 <!-- Sobrevivência -->      
-                <label align="left" text="Sobrevivência: " autoSize="true"/>
+                <label class="Sabedoria" align="left" text="Sobrevivência: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeSobrevivencia" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
         <layout left="500" top="360" height="80" width="200">    
                 <!-- Sedução -->      
-                <label align="left" text="Sedução: " autoSize="true"/>
+                <label class="Carisma" align="left" text="Sedução: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeSeducao" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="10" top="390" height="80" width="200">    
                 <!-- Vontade -->      
-               <label align="left" text="Vontade: " autoSize="true"/>
+               <label class="Sabedoria" align="left" text="Vontade: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeVontade" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="250" top="390" height="80" width="200">    
                 <!-- Conhecimento -->      
-                <label align="left" text="Conhecimento: " autoSize="true"/>
+                <label class="Inteligencia" align="left" text="Conhecimento: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeConhecimento" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
         <layout left="500" top="390" height="80" width="200">    
                 <!-- Guerra -->      
-                <label align="left" text="Guerra: " autoSize="true"/>
+                <label class="Inteligencia" align="left" text="Guerra: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeGuerra" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="10" top="420" height="80" width="200">    
                 <!-- Misticismo -->      
-               <label align="left" text="Misticismo: " autoSize="true"/>
+               <label class="Inteligencia" align="left" text="Misticismo: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeMisticismo" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="250" top="420" height="80" width="200">    
                 <!-- Tecnologia -->      
-                <label align="left" text="Tecnologia: " autoSize="true"/>
+                <label class="Inteligencia" align="left" text="Tecnologia: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeTecnologia" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
         <layout left="500" top="420" height="80" width="200">    
                 <!-- Alfaiate -->      
-                <label align="left" text="Alfaiate: " autoSize="true"/>
+                <label class="Inteligencia" align="left" text="Alfaiate: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeAlfaiate" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="10" top="450" height="80" width="200">    
                 <!-- Alquimia -->      
-               <label align="left" text="Alquimia: " autoSize="true"/>
+               <label class="Inteligencia" align="left" text="Alquimia: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeAlquimia" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="250" top="450" height="80" width="200">    
                 <!-- Armeiro -->      
-                <label align="left" text="Armeiro: " autoSize="true"/>
+                <label class="Inteligencia" align="left" text="Armeiro: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeArmeiro" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>   
         <layout left="500" top="450" height="80" width="200">    
                 <!-- Artesanato -->      
-                <label align="left" text="Artesanato: " autoSize="true"/>
+                <label class="Inteligencia" align="left" text="Artesanato: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeArtesanato" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="10" top="480" height="80" width="200">    
                 <!-- Culinária -->      
-               <label align="left" text="Culinária: " autoSize="true"/>
+               <label class="Inteligencia" align="left" text="Culinária: " autoSize="true"/>
                 <!-- Modificador -->
                <label field="modificadorDeCulinária" align="right" text="valor" 
                       width="70" horzTextAlign="center"/>
         </layout>
         <layout left="250" top="480" height="80" width="200">    
                 <!-- Conhecimento 1 -->      
-                <label field="Cunhecimento1" align="left" text="Cunhecimento1" 
+                <label class="Inteligencia" field="Cunhecimento1" align="left" text="Cunhecimento1" 
                       width="70" horzTextAlign="center"/>                
                       <!-- Modificador -->
                 <label field="modificadorDeConhecimento1" align="right" text="valor" 
@@ -351,7 +352,7 @@
         </layout>   
         <layout left="500" top="480" height="80" width="200">    
                 <!-- Conhecimento 2 -->      
-                <label field="Cunhecimento2" align="left" text="Cunhecimento2" 
+                <label class="Inteligencia" field="Cunhecimento2" align="left" text="Cunhecimento2" 
                       width="70" horzTextAlign="center"/>                
                       <!-- Modificador -->
                 <label field="modificadorDeConhecimento2" align="right" text="valor" 
@@ -359,7 +360,7 @@
         </layout>
         <layout left="10" top="510" height="80" width="200">    
                 <!-- Conhecimento 3 -->      
-                <label field="Cunhecimento3" align="left" text="Cunhecimento3" 
+                <label class="Inteligencia" field="Cunhecimento3" align="left" text="Cunhecimento3" 
                       width="70" horzTextAlign="center"/>                
                       <!-- Modificador -->
                 <label field="modificadorDeConhecimento3" align="right" text="valor" 
@@ -367,7 +368,7 @@
         </layout>
         <layout left="250" top="510" height="80" width="200">    
                 <!-- Conhecimento 4 -->      
-                <label field="Cunhecimento4" align="left" text="Cunhecimento4" 
+                <label class="Inteligencia" field="Cunhecimento4" align="left" text="Cunhecimento4" 
                       width="70" horzTextAlign="center"/>                
                       <!-- Modificador -->
                 <label field="modificadorDeConhecimento4" align="right" text="valor" 
@@ -375,7 +376,7 @@
         </layout>   
         <layout left="500" top="510" height="80" width="200">    
                 <!-- Conhecimento 5 -->      
-                <label field="Cunhecimento5" align="left" text="Cunhecimento5" 
+                <label class="Inteligencia" field="Cunhecimento5" align="left" text="Cunhecimento5" 
                       width="70" horzTextAlign="center"/>                
                       <!-- Modificador -->
                 <label field="modificadorDeConhecimento5" align="right" text="valor" 
