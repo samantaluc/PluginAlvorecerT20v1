@@ -4,9 +4,9 @@
 
 <layout align="client" margins="{left=4, right=4, top=4, bottom=4}">
                 <!-- Botão para apagar o item da lista -->
-                <button align="left" width="25" text="X" margins="{left=5}">
+                <button align="left" width="40" height="40" text="Del" margins="{left=1}">
 			<event name="onClick">
-				dialogs.confirmOkCancel("Tem certeza que quer apagar essa magia?",
+				dialogs.confirmOkCancel("Tem certeza que quer apagar essa Magia/Poder/Domínio/Talento?",
 					function (confirmado)
 						if confirmado then
 							ndb.deleteNode(sheet);
@@ -15,7 +15,7 @@
 			</event>
 		</button>
                 <!-- O título do item que aparece na lista -->
-                <label align="client" text="Teste de label" field="campoTitulo" margins="{left=4}"/>
+                <label align="client" autoSize="true" width="400" height="100" text="Teste de label" field="campoTitulo" margins="{left=1}"/>
                        
         </layout>
 </form>

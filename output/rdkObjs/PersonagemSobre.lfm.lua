@@ -64,6 +64,7 @@ local function constructNew_frmPersonagemSobre()
 
     obj.textEditor1 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor1:setParent(obj.scrollBox2);
+    obj.textEditor1:setFontSize(14);
     obj.textEditor1:setLeft(5);
     obj.textEditor1:setTop(25);
     obj.textEditor1:setWidth(400);
@@ -96,11 +97,12 @@ local function constructNew_frmPersonagemSobre()
     obj.label2:setTop(1);
     obj.label2:setWidth(200);
     obj.label2:setHeight(20);
-    obj.label2:setText("ANOTAÇÕES DO JOGADOR");
+    obj.label2:setText("ANOTAÇÕES EXTRAS");
     obj.label2:setName("label2");
 
     obj.textEditor2 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor2:setParent(obj.scrollBox3);
+    obj.textEditor2:setFontSize(14);
     obj.textEditor2:setLeft(5);
     obj.textEditor2:setTop(25);
     obj.textEditor2:setWidth(400);
@@ -112,7 +114,7 @@ local function constructNew_frmPersonagemSobre()
     obj.layout3:setParent(obj.scrollBox1);
     obj.layout3:setLeft(410);
     obj.layout3:setTop(0);
-    obj.layout3:setWidth(600);
+    obj.layout3:setWidth(900);
     obj.layout3:setHeight(400);
     obj.layout3:setName("layout3");
 
@@ -135,7 +137,7 @@ local function constructNew_frmPersonagemSobre()
     obj.richEdit1:setParent(obj.layout3);
     obj.richEdit1:setLeft(5);
     obj.richEdit1:setTop(25);
-    obj.richEdit1:setWidth(580);
+    obj.richEdit1:setWidth(850);
     obj.richEdit1:setHeight(350);
     obj.richEdit1:setField("background");
     lfm_setPropAsString(obj.richEdit1, "backgroundColor",  "#333333");
@@ -147,7 +149,7 @@ local function constructNew_frmPersonagemSobre()
     obj.layout4:setParent(obj.scrollBox1);
     obj.layout4:setLeft(410);
     obj.layout4:setTop(380);
-    obj.layout4:setWidth(600);
+    obj.layout4:setWidth(900);
     obj.layout4:setHeight(400);
     obj.layout4:setName("layout4");
 
@@ -166,42 +168,20 @@ local function constructNew_frmPersonagemSobre()
     obj.label4:setParent(obj.scrollBox4);
     obj.label4:setLeft(5);
     obj.label4:setTop(1);
-    obj.label4:setWidth(200);
+    obj.label4:setWidth(600);
     obj.label4:setHeight(20);
-    obj.label4:setText("ANOTAÇÕES DO MESTRE");
+    obj.label4:setText("ANOTAÇÕES SOBRE DESENVOLVIMENTO DA PERSONAGEM");
     obj.label4:setName("label4");
 
     obj.textEditor3 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor3:setParent(obj.scrollBox4);
+    obj.textEditor3:setFontSize(14);
     obj.textEditor3:setLeft(5);
     obj.textEditor3:setTop(25);
-    obj.textEditor3:setWidth(400);
+    obj.textEditor3:setWidth(850);
     obj.textEditor3:setHeight(350);
     obj.textEditor3:setField("anotacoes2");
     obj.textEditor3:setName("textEditor3");
-
-    obj.scrollBox5 = GUI.fromHandle(_obj_newObject("scrollBox"));
-    obj.scrollBox5:setParent(obj.layout4);
-    obj.scrollBox5:setAlign("client");
-    obj.scrollBox5:setName("scrollBox5");
-
-    obj.label5 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label5:setParent(obj.scrollBox5);
-    obj.label5:setLeft(415);
-    obj.label5:setTop(1);
-    obj.label5:setWidth(200);
-    obj.label5:setHeight(20);
-    obj.label5:setText("CARACTERISTICAS EXTRAS");
-    obj.label5:setName("label5");
-
-    obj.textEditor4 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor4:setParent(obj.scrollBox5);
-    obj.textEditor4:setLeft(415);
-    obj.textEditor4:setTop(25);
-    obj.textEditor4:setWidth(170);
-    obj.textEditor4:setHeight(350);
-    obj.textEditor4:setField("extra");
-    obj.textEditor4:setName("textEditor4");
 
     function obj:_releaseEvents()
     end;
@@ -217,9 +197,7 @@ local function constructNew_frmPersonagemSobre()
 
         if self.scrollBox2 ~= nil then self.scrollBox2:destroy(); self.scrollBox2 = nil; end;
         if self.textEditor3 ~= nil then self.textEditor3:destroy(); self.textEditor3 = nil; end;
-        if self.textEditor4 ~= nil then self.textEditor4:destroy(); self.textEditor4 = nil; end;
         if self.richEdit1 ~= nil then self.richEdit1:destroy(); self.richEdit1 = nil; end;
-        if self.label5 ~= nil then self.label5:destroy(); self.label5 = nil; end;
         if self.scrollBox4 ~= nil then self.scrollBox4:destroy(); self.scrollBox4 = nil; end;
         if self.label1 ~= nil then self.label1:destroy(); self.label1 = nil; end;
         if self.layout4 ~= nil then self.layout4:destroy(); self.layout4 = nil; end;
@@ -230,7 +208,6 @@ local function constructNew_frmPersonagemSobre()
         if self.label3 ~= nil then self.label3:destroy(); self.label3 = nil; end;
         if self.textEditor1 ~= nil then self.textEditor1:destroy(); self.textEditor1 = nil; end;
         if self.label4 ~= nil then self.label4:destroy(); self.label4 = nil; end;
-        if self.scrollBox5 ~= nil then self.scrollBox5:destroy(); self.scrollBox5 = nil; end;
         if self.layout3 ~= nil then self.layout3:destroy(); self.layout3 = nil; end;
         if self.textEditor2 ~= nil then self.textEditor2:destroy(); self.textEditor2 = nil; end;
         if self.layout1 ~= nil then self.layout1:destroy(); self.layout1 = nil; end;

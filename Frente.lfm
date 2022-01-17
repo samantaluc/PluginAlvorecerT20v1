@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form name="frmFrente" align="client"> 
+<form name="frmFrente" theme="dark" align="client"> 
 	<scrollBox align="client">
         <!-- Aqui começa o layout da ficha -->
         <layout left="10" top="02" height="25" width="400">   

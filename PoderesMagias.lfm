@@ -20,7 +20,8 @@
 
 
         <!-- recordList, representando a lista -->
-        <recordList name="rcllistaMagias" field="campoDaMagia" templateForm="frmlistaMagias" align="top" selectable="true" layout="horizontal" height="200" width="300">                       
+        <recordList name="rcllistaMagias" field="campoDaMagia" templateForm="frmlistaMagias" 
+        align="top" selectable="true" layout="horizontal" height="150" width="300">                       
 
                 <event name="onSelect">
                         --[[
@@ -54,10 +55,7 @@
                                 <edit align="client" field="campoTitulo"/>
                                                                
 
-                               <!-- Botão de apagar o item -->
-                               <button align="right" text="Apagar!" 
-                                      margins="{left=4, right=4, top=2, bottom=2}" width="150"
-                                       onClick="ndb.deleteNode(self.boxDestalhesDaMagia.node);" />
+                               
 
                         </layout>                       
 
@@ -67,7 +65,7 @@
                                 <layout align="client" margins="{left=2}">
                                 <scrollBox align="client">
                                         <edit align="top" field="campoSubTitulo" height="30"/>
-                                        <textEditor align="top" field="campoTextoGrande" fontSize="14" height="700"/>
+                                        <textEditor align="top" field="campoTextoGrande" fontSize="14" height="800"/>
                                 </scrollBox>
                                 </layout>                      
                         </layout>

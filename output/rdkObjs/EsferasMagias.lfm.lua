@@ -71,7 +71,7 @@ local function constructNew_frmEsferasMagias()
     obj.rcllistaEsfera:setAlign("top");
     obj.rcllistaEsfera:setSelectable(true);
     obj.rcllistaEsfera:setLayout("horizontal");
-    obj.rcllistaEsfera:setHeight(200);
+    obj.rcllistaEsfera:setHeight(150);
     obj.rcllistaEsfera:setWidth(300);
 
     obj.boxDetalhedaEsfera = GUI.fromHandle(_obj_newObject("dataScopeBox"));
@@ -162,7 +162,7 @@ local function constructNew_frmEsferasMagias()
     obj.textEditor1:setAlign("top");
     obj.textEditor1:setField("campoTextoGrande");
     obj.textEditor1:setFontSize(14);
-    obj.textEditor1:setHeight(700);
+    obj.textEditor1:setHeight(800);
     obj.textEditor1:setName("textEditor1");
 
     obj._e_event0 = obj.button1:addEventListener("onClick",

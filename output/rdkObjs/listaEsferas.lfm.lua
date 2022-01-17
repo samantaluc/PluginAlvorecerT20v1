@@ -38,17 +38,21 @@ local function constructNew_frmlistaEsferas()
     obj.button1 = GUI.fromHandle(_obj_newObject("button"));
     obj.button1:setParent(obj.layout1);
     obj.button1:setAlign("left");
-    obj.button1:setWidth(25);
-    obj.button1:setText("X");
-    obj.button1:setMargins({left=5});
+    obj.button1:setWidth(40);
+    obj.button1:setHeight(40);
+    obj.button1:setText("Del");
+    obj.button1:setMargins({left=1});
     obj.button1:setName("button1");
 
     obj.label1 = GUI.fromHandle(_obj_newObject("label"));
     obj.label1:setParent(obj.layout1);
     obj.label1:setAlign("client");
+    obj.label1:setAutoSize(true);
+    obj.label1:setWidth(400);
+    obj.label1:setHeight(100);
     obj.label1:setText("Teste de label");
     obj.label1:setField("campoTitulo");
-    obj.label1:setMargins({left=4});
+    obj.label1:setMargins({left=1});
     obj.label1:setName("label1");
 
     obj._e_event0 = obj.button1:addEventListener("onClick",

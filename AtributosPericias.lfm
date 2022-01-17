@@ -4,6 +4,7 @@
         <style>
                 label {
                         fontStyle: bold;
+                        fontSize: 14;
                 }
                 .Forca{
                         fontColor:#FF0000;

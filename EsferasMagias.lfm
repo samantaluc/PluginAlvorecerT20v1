@@ -20,7 +20,8 @@
 
 
         <!-- recordList, representando a lista -->
-        <recordList name="rcllistaEsfera" field="campoDaEsfera" templateForm="frmlistaEsferas" align="top" selectable="true" layout="horizontal" height="200" width="300">                       
+        <recordList name="rcllistaEsfera" field="campoDaEsfera" templateForm="frmlistaEsferas" 
+        align="top" selectable="true" layout="horizontal" height="150" width="300">                       
 
                 <event name="onSelect">
                         --[[
@@ -67,7 +68,7 @@
                                 <layout align="client" margins="{left=2}">
                                 <scrollBox align="client">
                                         <edit align="top" field="campoSubTitulo" height="30"/>
-                                        <textEditor align="top" field="campoTextoGrande" fontSize="14" height="700"/>
+                                        <textEditor align="top" field="campoTextoGrande" fontSize="14" height="800"/>
                                 </scrollBox>
                                 </layout>                      
                         </layout>

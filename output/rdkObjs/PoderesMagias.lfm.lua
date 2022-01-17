@@ -71,7 +71,7 @@ local function constructNew_frmPoderesMagias()
     obj.rcllistaMagias:setAlign("top");
     obj.rcllistaMagias:setSelectable(true);
     obj.rcllistaMagias:setLayout("horizontal");
-    obj.rcllistaMagias:setHeight(200);
+    obj.rcllistaMagias:setHeight(150);
     obj.rcllistaMagias:setWidth(300);
 
     obj.boxDestalhesDaMagia = GUI.fromHandle(_obj_newObject("dataScopeBox"));
@@ -115,14 +115,6 @@ local function constructNew_frmPoderesMagias()
     obj.edit1:setField("campoTitulo");
     obj.edit1:setName("edit1");
 
-    obj.button2 = GUI.fromHandle(_obj_newObject("button"));
-    obj.button2:setParent(obj.layout2);
-    obj.button2:setAlign("right");
-    obj.button2:setText("Apagar!");
-    obj.button2:setMargins({left=4, right=4, top=2, bottom=2});
-    obj.button2:setWidth(150);
-    obj.button2:setName("button2");
-
     obj.layout3 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout3:setParent(obj.scrollBox3);
     obj.layout3:setAlign("top");
@@ -162,7 +154,7 @@ local function constructNew_frmPoderesMagias()
     obj.textEditor1:setAlign("top");
     obj.textEditor1:setField("campoTextoGrande");
     obj.textEditor1:setFontSize(14);
-    obj.textEditor1:setHeight(700);
+    obj.textEditor1:setHeight(800);
     obj.textEditor1:setName("textEditor1");
 
     obj._e_event0 = obj.button1:addEventListener("onClick",
@@ -189,13 +181,7 @@ local function constructNew_frmPoderesMagias()
             return utils.compareStringPtBr(nodeA.campoTitulo, nodeB.campoTitulo);
         end, obj);
 
-    obj._e_event3 = obj.button2:addEventListener("onClick",
-        function (_)
-            ndb.deleteNode(self.boxDestalhesDaMagia.node);
-        end, obj);
-
     function obj:_releaseEvents()
-        __o_rrpgObjs.removeEventListenerById(self._e_event3);
         __o_rrpgObjs.removeEventListenerById(self._e_event2);
         __o_rrpgObjs.removeEventListenerById(self._e_event1);
         __o_rrpgObjs.removeEventListenerById(self._e_event0);
@@ -216,9 +202,8 @@ local function constructNew_frmPoderesMagias()
         if self.label1 ~= nil then self.label1:destroy(); self.label1 = nil; end;
         if self.layout4 ~= nil then self.layout4:destroy(); self.layout4 = nil; end;
         if self.scrollBox3 ~= nil then self.scrollBox3:destroy(); self.scrollBox3 = nil; end;
-        if self.button2 ~= nil then self.button2:destroy(); self.button2 = nil; end;
-        if self.image1 ~= nil then self.image1:destroy(); self.image1 = nil; end;
         if self.textEditor1 ~= nil then self.textEditor1:destroy(); self.textEditor1 = nil; end;
+        if self.image1 ~= nil then self.image1:destroy(); self.image1 = nil; end;
         if self.rcllistaMagias ~= nil then self.rcllistaMagias:destroy(); self.rcllistaMagias = nil; end;
         if self.layout3 ~= nil then self.layout3:destroy(); self.layout3 = nil; end;
         if self.edit2 ~= nil then self.edit2:destroy(); self.edit2 = nil; end;

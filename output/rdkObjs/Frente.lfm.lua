@@ -27,6 +27,7 @@ local function constructNew_frmFrente()
     _gui_assignInitialParentForForm(obj.handle);
     obj:beginUpdate();
     obj:setName("frmFrente");
+    obj:setTheme("dark");
     obj:setAlign("client");
 
     obj.scrollBox1 = GUI.fromHandle(_obj_newObject("scrollBox"));

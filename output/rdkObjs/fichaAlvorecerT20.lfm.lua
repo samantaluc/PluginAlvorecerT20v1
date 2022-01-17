@@ -46,6 +46,7 @@ local function constructNew_frmAlvorecerT20()
     obj.frmFrente = GUI.fromHandle(_obj_newObject("form"));
     obj.frmFrente:setParent(obj.tab1);
     obj.frmFrente:setName("frmFrente");
+    obj.frmFrente:setTheme("dark");
     obj.frmFrente:setAlign("client");
 
     obj.scrollBox1 = GUI.fromHandle(_obj_newObject("scrollBox"));
@@ -68,6 +69,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label1:setAutoSize(true);
     obj.label1:setName("label1");
     lfm_setPropAsString(obj.label1, "fontStyle",  "bold");
+    obj.label1:setFontSize(14);
 
     obj.edit1 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit1:setParent(obj.layout1);
@@ -91,6 +93,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label2:setAutoSize(true);
     obj.label2:setName("label2");
     lfm_setPropAsString(obj.label2, "fontStyle",  "bold");
+    obj.label2:setFontSize(14);
 
     obj.edit2 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit2:setParent(obj.layout2);
@@ -114,6 +117,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label3:setAutoSize(true);
     obj.label3:setName("label3");
     lfm_setPropAsString(obj.label3, "fontStyle",  "bold");
+    obj.label3:setFontSize(14);
 
     obj.edit3 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit3:setParent(obj.layout3);
@@ -137,6 +141,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label4:setAutoSize(true);
     obj.label4:setName("label4");
     lfm_setPropAsString(obj.label4, "fontStyle",  "bold");
+    obj.label4:setFontSize(14);
 
     obj.edit4 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit4:setParent(obj.layout4);
@@ -160,6 +165,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label5:setAutoSize(true);
     obj.label5:setName("label5");
     lfm_setPropAsString(obj.label5, "fontStyle",  "bold");
+    obj.label5:setFontSize(14);
 
     obj.edit5 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit5:setParent(obj.layout5);
@@ -183,6 +189,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label6:setAutoSize(true);
     obj.label6:setName("label6");
     lfm_setPropAsString(obj.label6, "fontStyle",  "bold");
+    obj.label6:setFontSize(14);
 
     obj.edit6 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit6:setParent(obj.layout6);
@@ -206,6 +213,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label7:setAutoSize(true);
     obj.label7:setName("label7");
     lfm_setPropAsString(obj.label7, "fontStyle",  "bold");
+    obj.label7:setFontSize(14);
 
     obj.edit7 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit7:setParent(obj.layout7);
@@ -229,6 +237,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label8:setAutoSize(true);
     obj.label8:setName("label8");
     lfm_setPropAsString(obj.label8, "fontStyle",  "bold");
+    obj.label8:setFontSize(14);
 
     obj.edit8 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit8:setParent(obj.layout8);
@@ -252,6 +261,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label9:setAutoSize(true);
     obj.label9:setName("label9");
     lfm_setPropAsString(obj.label9, "fontStyle",  "bold");
+    obj.label9:setFontSize(14);
 
     obj.edit9 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit9:setParent(obj.layout9);
@@ -275,6 +285,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label10:setAutoSize(true);
     obj.label10:setName("label10");
     lfm_setPropAsString(obj.label10, "fontStyle",  "bold");
+    obj.label10:setFontSize(14);
 
     obj.edit10 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit10:setParent(obj.layout10);
@@ -298,6 +309,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label11:setAutoSize(true);
     obj.label11:setName("label11");
     lfm_setPropAsString(obj.label11, "fontStyle",  "bold");
+    obj.label11:setFontSize(14);
 
     obj.edit11 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit11:setParent(obj.layout11);
@@ -321,6 +333,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label12:setAutoSize(true);
     obj.label12:setName("label12");
     lfm_setPropAsString(obj.label12, "fontStyle",  "bold");
+    obj.label12:setFontSize(14);
 
     obj.edit12 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit12:setParent(obj.layout12);
@@ -344,6 +357,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label13:setAutoSize(true);
     obj.label13:setName("label13");
     lfm_setPropAsString(obj.label13, "fontStyle",  "bold");
+    obj.label13:setFontSize(14);
 
     obj.edit13 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit13:setParent(obj.layout13);
@@ -367,6 +381,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label14:setAutoSize(true);
     obj.label14:setName("label14");
     lfm_setPropAsString(obj.label14, "fontStyle",  "bold");
+    obj.label14:setFontSize(14);
 
     obj.label15 = GUI.fromHandle(_obj_newObject("label"));
     obj.label15:setParent(obj.layout14);
@@ -377,6 +392,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label15:setHorzTextAlign("center");
     obj.label15:setName("label15");
     lfm_setPropAsString(obj.label15, "fontStyle",  "bold");
+    obj.label15:setFontSize(14);
 
     obj.layout15 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout15:setParent(obj.scrollBox1);
@@ -393,6 +409,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label16:setAutoSize(true);
     obj.label16:setName("label16");
     lfm_setPropAsString(obj.label16, "fontStyle",  "bold");
+    obj.label16:setFontSize(14);
 
     obj.label17 = GUI.fromHandle(_obj_newObject("label"));
     obj.label17:setParent(obj.layout15);
@@ -403,6 +420,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label17:setHorzTextAlign("center");
     obj.label17:setName("label17");
     lfm_setPropAsString(obj.label17, "fontStyle",  "bold");
+    obj.label17:setFontSize(14);
 
     obj.layout16 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout16:setParent(obj.scrollBox1);
@@ -419,6 +437,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label18:setAutoSize(true);
     obj.label18:setName("label18");
     lfm_setPropAsString(obj.label18, "fontStyle",  "bold");
+    obj.label18:setFontSize(14);
 
     obj.label19 = GUI.fromHandle(_obj_newObject("label"));
     obj.label19:setParent(obj.layout16);
@@ -429,6 +448,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label19:setHorzTextAlign("center");
     obj.label19:setName("label19");
     lfm_setPropAsString(obj.label19, "fontStyle",  "bold");
+    obj.label19:setFontSize(14);
 
     obj.layout17 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout17:setParent(obj.scrollBox1);
@@ -445,6 +465,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label20:setAutoSize(true);
     obj.label20:setName("label20");
     lfm_setPropAsString(obj.label20, "fontStyle",  "bold");
+    obj.label20:setFontSize(14);
 
     obj.label21 = GUI.fromHandle(_obj_newObject("label"));
     obj.label21:setParent(obj.layout17);
@@ -455,6 +476,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label21:setHorzTextAlign("center");
     obj.label21:setName("label21");
     lfm_setPropAsString(obj.label21, "fontStyle",  "bold");
+    obj.label21:setFontSize(14);
 
     obj.layout18 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout18:setParent(obj.scrollBox1);
@@ -471,6 +493,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label22:setAutoSize(true);
     obj.label22:setName("label22");
     lfm_setPropAsString(obj.label22, "fontStyle",  "bold");
+    obj.label22:setFontSize(14);
 
     obj.label23 = GUI.fromHandle(_obj_newObject("label"));
     obj.label23:setParent(obj.layout18);
@@ -481,6 +504,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label23:setHorzTextAlign("center");
     obj.label23:setName("label23");
     lfm_setPropAsString(obj.label23, "fontStyle",  "bold");
+    obj.label23:setFontSize(14);
 
     obj.layout19 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout19:setParent(obj.scrollBox1);
@@ -497,6 +521,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label24:setAutoSize(true);
     obj.label24:setName("label24");
     lfm_setPropAsString(obj.label24, "fontStyle",  "bold");
+    obj.label24:setFontSize(14);
 
     obj.label25 = GUI.fromHandle(_obj_newObject("label"));
     obj.label25:setParent(obj.layout19);
@@ -507,6 +532,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label25:setHorzTextAlign("center");
     obj.label25:setName("label25");
     lfm_setPropAsString(obj.label25, "fontStyle",  "bold");
+    obj.label25:setFontSize(14);
 
     obj.layout20 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout20:setParent(obj.scrollBox1);
@@ -523,6 +549,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label26:setAutoSize(true);
     obj.label26:setName("label26");
     lfm_setPropAsString(obj.label26, "fontStyle",  "bold");
+    obj.label26:setFontSize(14);
 
     obj.label27 = GUI.fromHandle(_obj_newObject("label"));
     obj.label27:setParent(obj.layout20);
@@ -533,6 +560,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label27:setHorzTextAlign("center");
     obj.label27:setName("label27");
     lfm_setPropAsString(obj.label27, "fontStyle",  "bold");
+    obj.label27:setFontSize(14);
 
     obj.layout21 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout21:setParent(obj.scrollBox1);
@@ -549,6 +577,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label28:setAutoSize(true);
     obj.label28:setName("label28");
     lfm_setPropAsString(obj.label28, "fontStyle",  "bold");
+    obj.label28:setFontSize(14);
 
     obj.label29 = GUI.fromHandle(_obj_newObject("label"));
     obj.label29:setParent(obj.layout21);
@@ -559,6 +588,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label29:setHorzTextAlign("center");
     obj.label29:setName("label29");
     lfm_setPropAsString(obj.label29, "fontStyle",  "bold");
+    obj.label29:setFontSize(14);
 
     obj.layout22 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout22:setParent(obj.scrollBox1);
@@ -575,6 +605,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label30:setAutoSize(true);
     obj.label30:setName("label30");
     lfm_setPropAsString(obj.label30, "fontStyle",  "bold");
+    obj.label30:setFontSize(14);
 
     obj.label31 = GUI.fromHandle(_obj_newObject("label"));
     obj.label31:setParent(obj.layout22);
@@ -585,6 +616,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label31:setHorzTextAlign("center");
     obj.label31:setName("label31");
     lfm_setPropAsString(obj.label31, "fontStyle",  "bold");
+    obj.label31:setFontSize(14);
 
     obj.layout23 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout23:setParent(obj.scrollBox1);
@@ -601,6 +633,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label32:setAutoSize(true);
     obj.label32:setName("label32");
     lfm_setPropAsString(obj.label32, "fontStyle",  "bold");
+    obj.label32:setFontSize(14);
 
     obj.label33 = GUI.fromHandle(_obj_newObject("label"));
     obj.label33:setParent(obj.layout23);
@@ -611,6 +644,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label33:setHorzTextAlign("center");
     obj.label33:setName("label33");
     lfm_setPropAsString(obj.label33, "fontStyle",  "bold");
+    obj.label33:setFontSize(14);
 
     obj.layout24 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout24:setParent(obj.scrollBox1);
@@ -627,6 +661,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label34:setAutoSize(true);
     obj.label34:setName("label34");
     lfm_setPropAsString(obj.label34, "fontStyle",  "bold");
+    obj.label34:setFontSize(14);
 
     obj.label35 = GUI.fromHandle(_obj_newObject("label"));
     obj.label35:setParent(obj.layout24);
@@ -637,6 +672,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label35:setHorzTextAlign("center");
     obj.label35:setName("label35");
     lfm_setPropAsString(obj.label35, "fontStyle",  "bold");
+    obj.label35:setFontSize(14);
 
     obj.layout25 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout25:setParent(obj.scrollBox1);
@@ -653,6 +689,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label36:setAutoSize(true);
     obj.label36:setName("label36");
     lfm_setPropAsString(obj.label36, "fontStyle",  "bold");
+    obj.label36:setFontSize(14);
 
     obj.label37 = GUI.fromHandle(_obj_newObject("label"));
     obj.label37:setParent(obj.layout25);
@@ -663,6 +700,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label37:setHorzTextAlign("center");
     obj.label37:setName("label37");
     lfm_setPropAsString(obj.label37, "fontStyle",  "bold");
+    obj.label37:setFontSize(14);
 
     obj.layout26 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout26:setParent(obj.scrollBox1);
@@ -679,6 +717,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label38:setAutoSize(true);
     obj.label38:setName("label38");
     lfm_setPropAsString(obj.label38, "fontStyle",  "bold");
+    obj.label38:setFontSize(14);
 
     obj.label39 = GUI.fromHandle(_obj_newObject("label"));
     obj.label39:setParent(obj.layout26);
@@ -689,6 +728,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label39:setHorzTextAlign("center");
     obj.label39:setName("label39");
     lfm_setPropAsString(obj.label39, "fontStyle",  "bold");
+    obj.label39:setFontSize(14);
 
     obj.layout27 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout27:setParent(obj.scrollBox1);
@@ -705,6 +745,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label40:setAutoSize(true);
     obj.label40:setName("label40");
     lfm_setPropAsString(obj.label40, "fontStyle",  "bold");
+    obj.label40:setFontSize(14);
 
     obj.label41 = GUI.fromHandle(_obj_newObject("label"));
     obj.label41:setParent(obj.layout27);
@@ -715,6 +756,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label41:setHorzTextAlign("center");
     obj.label41:setName("label41");
     lfm_setPropAsString(obj.label41, "fontStyle",  "bold");
+    obj.label41:setFontSize(14);
 
     obj.layout28 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout28:setParent(obj.scrollBox1);
@@ -731,6 +773,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label42:setAutoSize(true);
     obj.label42:setName("label42");
     lfm_setPropAsString(obj.label42, "fontStyle",  "bold");
+    obj.label42:setFontSize(14);
 
     obj.label43 = GUI.fromHandle(_obj_newObject("label"));
     obj.label43:setParent(obj.layout28);
@@ -741,6 +784,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label43:setHorzTextAlign("center");
     obj.label43:setName("label43");
     lfm_setPropAsString(obj.label43, "fontStyle",  "bold");
+    obj.label43:setFontSize(14);
 
     obj.layout29 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout29:setParent(obj.scrollBox1);
@@ -757,6 +801,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label44:setAutoSize(true);
     obj.label44:setName("label44");
     lfm_setPropAsString(obj.label44, "fontStyle",  "bold");
+    obj.label44:setFontSize(14);
 
     obj.label45 = GUI.fromHandle(_obj_newObject("label"));
     obj.label45:setParent(obj.layout29);
@@ -767,6 +812,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label45:setHorzTextAlign("center");
     obj.label45:setName("label45");
     lfm_setPropAsString(obj.label45, "fontStyle",  "bold");
+    obj.label45:setFontSize(14);
 
     obj.layout30 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout30:setParent(obj.scrollBox1);
@@ -783,6 +829,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label46:setAutoSize(true);
     obj.label46:setName("label46");
     lfm_setPropAsString(obj.label46, "fontStyle",  "bold");
+    obj.label46:setFontSize(14);
 
     obj.label47 = GUI.fromHandle(_obj_newObject("label"));
     obj.label47:setParent(obj.layout30);
@@ -793,6 +840,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label47:setHorzTextAlign("center");
     obj.label47:setName("label47");
     lfm_setPropAsString(obj.label47, "fontStyle",  "bold");
+    obj.label47:setFontSize(14);
 
     obj.layout31 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout31:setParent(obj.scrollBox1);
@@ -809,6 +857,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label48:setAutoSize(true);
     obj.label48:setName("label48");
     lfm_setPropAsString(obj.label48, "fontStyle",  "bold");
+    obj.label48:setFontSize(14);
 
     obj.label49 = GUI.fromHandle(_obj_newObject("label"));
     obj.label49:setParent(obj.layout31);
@@ -819,6 +868,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label49:setHorzTextAlign("center");
     obj.label49:setName("label49");
     lfm_setPropAsString(obj.label49, "fontStyle",  "bold");
+    obj.label49:setFontSize(14);
 
     obj.layout32 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout32:setParent(obj.scrollBox1);
@@ -835,6 +885,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label50:setAutoSize(true);
     obj.label50:setName("label50");
     lfm_setPropAsString(obj.label50, "fontStyle",  "bold");
+    obj.label50:setFontSize(14);
 
     obj.label51 = GUI.fromHandle(_obj_newObject("label"));
     obj.label51:setParent(obj.layout32);
@@ -845,6 +896,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label51:setHorzTextAlign("center");
     obj.label51:setName("label51");
     lfm_setPropAsString(obj.label51, "fontStyle",  "bold");
+    obj.label51:setFontSize(14);
 
     obj.layout33 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout33:setParent(obj.scrollBox1);
@@ -861,6 +913,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label52:setAutoSize(true);
     obj.label52:setName("label52");
     lfm_setPropAsString(obj.label52, "fontStyle",  "bold");
+    obj.label52:setFontSize(14);
 
     obj.label53 = GUI.fromHandle(_obj_newObject("label"));
     obj.label53:setParent(obj.layout33);
@@ -871,6 +924,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label53:setHorzTextAlign("center");
     obj.label53:setName("label53");
     lfm_setPropAsString(obj.label53, "fontStyle",  "bold");
+    obj.label53:setFontSize(14);
 
     obj.layout34 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout34:setParent(obj.scrollBox1);
@@ -887,6 +941,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label54:setAutoSize(true);
     obj.label54:setName("label54");
     lfm_setPropAsString(obj.label54, "fontStyle",  "bold");
+    obj.label54:setFontSize(14);
 
     obj.label55 = GUI.fromHandle(_obj_newObject("label"));
     obj.label55:setParent(obj.layout34);
@@ -897,6 +952,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label55:setHorzTextAlign("center");
     obj.label55:setName("label55");
     lfm_setPropAsString(obj.label55, "fontStyle",  "bold");
+    obj.label55:setFontSize(14);
 
     obj.layout35 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout35:setParent(obj.scrollBox1);
@@ -913,6 +969,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label56:setAutoSize(true);
     obj.label56:setName("label56");
     lfm_setPropAsString(obj.label56, "fontStyle",  "bold");
+    obj.label56:setFontSize(14);
 
     obj.label57 = GUI.fromHandle(_obj_newObject("label"));
     obj.label57:setParent(obj.layout35);
@@ -923,6 +980,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label57:setHorzTextAlign("center");
     obj.label57:setName("label57");
     lfm_setPropAsString(obj.label57, "fontStyle",  "bold");
+    obj.label57:setFontSize(14);
 
     obj.layout36 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout36:setParent(obj.scrollBox1);
@@ -939,6 +997,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label58:setAutoSize(true);
     obj.label58:setName("label58");
     lfm_setPropAsString(obj.label58, "fontStyle",  "bold");
+    obj.label58:setFontSize(14);
 
     obj.label59 = GUI.fromHandle(_obj_newObject("label"));
     obj.label59:setParent(obj.layout36);
@@ -949,6 +1008,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label59:setHorzTextAlign("center");
     obj.label59:setName("label59");
     lfm_setPropAsString(obj.label59, "fontStyle",  "bold");
+    obj.label59:setFontSize(14);
 
     obj.layout37 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout37:setParent(obj.scrollBox1);
@@ -965,6 +1025,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label60:setAutoSize(true);
     obj.label60:setName("label60");
     lfm_setPropAsString(obj.label60, "fontStyle",  "bold");
+    obj.label60:setFontSize(14);
 
     obj.label61 = GUI.fromHandle(_obj_newObject("label"));
     obj.label61:setParent(obj.layout37);
@@ -975,6 +1036,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label61:setHorzTextAlign("center");
     obj.label61:setName("label61");
     lfm_setPropAsString(obj.label61, "fontStyle",  "bold");
+    obj.label61:setFontSize(14);
 
     obj.layout38 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout38:setParent(obj.scrollBox1);
@@ -991,6 +1053,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label62:setAutoSize(true);
     obj.label62:setName("label62");
     lfm_setPropAsString(obj.label62, "fontStyle",  "bold");
+    obj.label62:setFontSize(14);
 
     obj.label63 = GUI.fromHandle(_obj_newObject("label"));
     obj.label63:setParent(obj.layout38);
@@ -1001,6 +1064,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label63:setHorzTextAlign("center");
     obj.label63:setName("label63");
     lfm_setPropAsString(obj.label63, "fontStyle",  "bold");
+    obj.label63:setFontSize(14);
 
     obj.layout39 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout39:setParent(obj.scrollBox1);
@@ -1017,6 +1081,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label64:setAutoSize(true);
     obj.label64:setName("label64");
     lfm_setPropAsString(obj.label64, "fontStyle",  "bold");
+    obj.label64:setFontSize(14);
 
     obj.label65 = GUI.fromHandle(_obj_newObject("label"));
     obj.label65:setParent(obj.layout39);
@@ -1027,6 +1092,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label65:setHorzTextAlign("center");
     obj.label65:setName("label65");
     lfm_setPropAsString(obj.label65, "fontStyle",  "bold");
+    obj.label65:setFontSize(14);
 
     obj.layout40 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout40:setParent(obj.scrollBox1);
@@ -1043,6 +1109,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label66:setAutoSize(true);
     obj.label66:setName("label66");
     lfm_setPropAsString(obj.label66, "fontStyle",  "bold");
+    obj.label66:setFontSize(14);
 
     obj.label67 = GUI.fromHandle(_obj_newObject("label"));
     obj.label67:setParent(obj.layout40);
@@ -1053,6 +1120,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label67:setHorzTextAlign("center");
     obj.label67:setName("label67");
     lfm_setPropAsString(obj.label67, "fontStyle",  "bold");
+    obj.label67:setFontSize(14);
 
     obj.layout41 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout41:setParent(obj.scrollBox1);
@@ -1069,6 +1137,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label68:setAutoSize(true);
     obj.label68:setName("label68");
     lfm_setPropAsString(obj.label68, "fontStyle",  "bold");
+    obj.label68:setFontSize(14);
 
     obj.label69 = GUI.fromHandle(_obj_newObject("label"));
     obj.label69:setParent(obj.layout41);
@@ -1079,6 +1148,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label69:setHorzTextAlign("center");
     obj.label69:setName("label69");
     lfm_setPropAsString(obj.label69, "fontStyle",  "bold");
+    obj.label69:setFontSize(14);
 
     obj.layout42 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout42:setParent(obj.scrollBox1);
@@ -1095,6 +1165,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label70:setAutoSize(true);
     obj.label70:setName("label70");
     lfm_setPropAsString(obj.label70, "fontStyle",  "bold");
+    obj.label70:setFontSize(14);
 
     obj.label71 = GUI.fromHandle(_obj_newObject("label"));
     obj.label71:setParent(obj.layout42);
@@ -1105,6 +1176,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label71:setHorzTextAlign("center");
     obj.label71:setName("label71");
     lfm_setPropAsString(obj.label71, "fontStyle",  "bold");
+    obj.label71:setFontSize(14);
 
     obj.layout43 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout43:setParent(obj.scrollBox1);
@@ -1121,6 +1193,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label72:setAutoSize(true);
     obj.label72:setName("label72");
     lfm_setPropAsString(obj.label72, "fontStyle",  "bold");
+    obj.label72:setFontSize(14);
 
     obj.label73 = GUI.fromHandle(_obj_newObject("label"));
     obj.label73:setParent(obj.layout43);
@@ -1131,6 +1204,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label73:setHorzTextAlign("center");
     obj.label73:setName("label73");
     lfm_setPropAsString(obj.label73, "fontStyle",  "bold");
+    obj.label73:setFontSize(14);
 
     obj.layout44 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout44:setParent(obj.scrollBox1);
@@ -1147,6 +1221,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label74:setAutoSize(true);
     obj.label74:setName("label74");
     lfm_setPropAsString(obj.label74, "fontStyle",  "bold");
+    obj.label74:setFontSize(14);
 
     obj.label75 = GUI.fromHandle(_obj_newObject("label"));
     obj.label75:setParent(obj.layout44);
@@ -1157,6 +1232,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label75:setHorzTextAlign("center");
     obj.label75:setName("label75");
     lfm_setPropAsString(obj.label75, "fontStyle",  "bold");
+    obj.label75:setFontSize(14);
 
     obj.layout45 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout45:setParent(obj.scrollBox1);
@@ -1173,6 +1249,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label76:setAutoSize(true);
     obj.label76:setName("label76");
     lfm_setPropAsString(obj.label76, "fontStyle",  "bold");
+    obj.label76:setFontSize(14);
 
     obj.label77 = GUI.fromHandle(_obj_newObject("label"));
     obj.label77:setParent(obj.layout45);
@@ -1183,6 +1260,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label77:setHorzTextAlign("center");
     obj.label77:setName("label77");
     lfm_setPropAsString(obj.label77, "fontStyle",  "bold");
+    obj.label77:setFontSize(14);
 
     obj.layout46 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout46:setParent(obj.scrollBox1);
@@ -1199,6 +1277,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label78:setAutoSize(true);
     obj.label78:setName("label78");
     lfm_setPropAsString(obj.label78, "fontStyle",  "bold");
+    obj.label78:setFontSize(14);
 
     obj.label79 = GUI.fromHandle(_obj_newObject("label"));
     obj.label79:setParent(obj.layout46);
@@ -1209,6 +1288,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label79:setHorzTextAlign("center");
     obj.label79:setName("label79");
     lfm_setPropAsString(obj.label79, "fontStyle",  "bold");
+    obj.label79:setFontSize(14);
 
     obj.layout47 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout47:setParent(obj.scrollBox1);
@@ -1225,6 +1305,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label80:setAutoSize(true);
     obj.label80:setName("label80");
     lfm_setPropAsString(obj.label80, "fontStyle",  "bold");
+    obj.label80:setFontSize(14);
 
     obj.label81 = GUI.fromHandle(_obj_newObject("label"));
     obj.label81:setParent(obj.layout47);
@@ -1235,6 +1316,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label81:setHorzTextAlign("center");
     obj.label81:setName("label81");
     lfm_setPropAsString(obj.label81, "fontStyle",  "bold");
+    obj.label81:setFontSize(14);
 
     obj.layout48 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout48:setParent(obj.scrollBox1);
@@ -1251,6 +1333,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label82:setAutoSize(true);
     obj.label82:setName("label82");
     lfm_setPropAsString(obj.label82, "fontStyle",  "bold");
+    obj.label82:setFontSize(14);
 
     obj.label83 = GUI.fromHandle(_obj_newObject("label"));
     obj.label83:setParent(obj.layout48);
@@ -1261,6 +1344,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label83:setHorzTextAlign("center");
     obj.label83:setName("label83");
     lfm_setPropAsString(obj.label83, "fontStyle",  "bold");
+    obj.label83:setFontSize(14);
 
     obj.layout49 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout49:setParent(obj.scrollBox1);
@@ -1277,6 +1361,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label84:setAutoSize(true);
     obj.label84:setName("label84");
     lfm_setPropAsString(obj.label84, "fontStyle",  "bold");
+    obj.label84:setFontSize(14);
 
     obj.label85 = GUI.fromHandle(_obj_newObject("label"));
     obj.label85:setParent(obj.layout49);
@@ -1287,6 +1372,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label85:setHorzTextAlign("center");
     obj.label85:setName("label85");
     lfm_setPropAsString(obj.label85, "fontStyle",  "bold");
+    obj.label85:setFontSize(14);
 
     obj.layout50 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout50:setParent(obj.scrollBox1);
@@ -1303,6 +1389,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label86:setAutoSize(true);
     obj.label86:setName("label86");
     lfm_setPropAsString(obj.label86, "fontStyle",  "bold");
+    obj.label86:setFontSize(14);
 
     obj.label87 = GUI.fromHandle(_obj_newObject("label"));
     obj.label87:setParent(obj.layout50);
@@ -1313,6 +1400,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label87:setHorzTextAlign("center");
     obj.label87:setName("label87");
     lfm_setPropAsString(obj.label87, "fontStyle",  "bold");
+    obj.label87:setFontSize(14);
 
     obj.layout51 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout51:setParent(obj.scrollBox1);
@@ -1329,6 +1417,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label88:setAutoSize(true);
     obj.label88:setName("label88");
     lfm_setPropAsString(obj.label88, "fontStyle",  "bold");
+    obj.label88:setFontSize(14);
 
     obj.label89 = GUI.fromHandle(_obj_newObject("label"));
     obj.label89:setParent(obj.layout51);
@@ -1339,6 +1428,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label89:setHorzTextAlign("center");
     obj.label89:setName("label89");
     lfm_setPropAsString(obj.label89, "fontStyle",  "bold");
+    obj.label89:setFontSize(14);
 
     obj.layout52 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout52:setParent(obj.scrollBox1);
@@ -1355,6 +1445,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label90:setAutoSize(true);
     obj.label90:setName("label90");
     lfm_setPropAsString(obj.label90, "fontStyle",  "bold");
+    obj.label90:setFontSize(14);
 
     obj.label91 = GUI.fromHandle(_obj_newObject("label"));
     obj.label91:setParent(obj.layout52);
@@ -1365,6 +1456,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label91:setHorzTextAlign("center");
     obj.label91:setName("label91");
     lfm_setPropAsString(obj.label91, "fontStyle",  "bold");
+    obj.label91:setFontSize(14);
 
     obj.layout53 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout53:setParent(obj.scrollBox1);
@@ -1381,6 +1473,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label92:setAutoSize(true);
     obj.label92:setName("label92");
     lfm_setPropAsString(obj.label92, "fontStyle",  "bold");
+    obj.label92:setFontSize(14);
 
     obj.label93 = GUI.fromHandle(_obj_newObject("label"));
     obj.label93:setParent(obj.layout53);
@@ -1391,6 +1484,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label93:setHorzTextAlign("center");
     obj.label93:setName("label93");
     lfm_setPropAsString(obj.label93, "fontStyle",  "bold");
+    obj.label93:setFontSize(14);
 
     obj.layout54 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout54:setParent(obj.scrollBox1);
@@ -1407,6 +1501,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label94:setAutoSize(true);
     obj.label94:setName("label94");
     lfm_setPropAsString(obj.label94, "fontStyle",  "bold");
+    obj.label94:setFontSize(14);
 
     obj.label95 = GUI.fromHandle(_obj_newObject("label"));
     obj.label95:setParent(obj.layout54);
@@ -1417,6 +1512,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label95:setHorzTextAlign("center");
     obj.label95:setName("label95");
     lfm_setPropAsString(obj.label95, "fontStyle",  "bold");
+    obj.label95:setFontSize(14);
 
     obj.layout55 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout55:setParent(obj.scrollBox1);
@@ -1435,6 +1531,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label96:setHorzTextAlign("center");
     obj.label96:setName("label96");
     lfm_setPropAsString(obj.label96, "fontStyle",  "bold");
+    obj.label96:setFontSize(14);
 
     obj.label97 = GUI.fromHandle(_obj_newObject("label"));
     obj.label97:setParent(obj.layout55);
@@ -1445,6 +1542,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label97:setHorzTextAlign("center");
     obj.label97:setName("label97");
     lfm_setPropAsString(obj.label97, "fontStyle",  "bold");
+    obj.label97:setFontSize(14);
 
     obj.layout56 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout56:setParent(obj.scrollBox1);
@@ -1463,6 +1561,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label98:setHorzTextAlign("center");
     obj.label98:setName("label98");
     lfm_setPropAsString(obj.label98, "fontStyle",  "bold");
+    obj.label98:setFontSize(14);
 
     obj.label99 = GUI.fromHandle(_obj_newObject("label"));
     obj.label99:setParent(obj.layout56);
@@ -1473,6 +1572,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label99:setHorzTextAlign("center");
     obj.label99:setName("label99");
     lfm_setPropAsString(obj.label99, "fontStyle",  "bold");
+    obj.label99:setFontSize(14);
 
     obj.layout57 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout57:setParent(obj.scrollBox1);
@@ -1491,6 +1591,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label100:setHorzTextAlign("center");
     obj.label100:setName("label100");
     lfm_setPropAsString(obj.label100, "fontStyle",  "bold");
+    obj.label100:setFontSize(14);
 
     obj.label101 = GUI.fromHandle(_obj_newObject("label"));
     obj.label101:setParent(obj.layout57);
@@ -1501,6 +1602,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label101:setHorzTextAlign("center");
     obj.label101:setName("label101");
     lfm_setPropAsString(obj.label101, "fontStyle",  "bold");
+    obj.label101:setFontSize(14);
 
     obj.layout58 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout58:setParent(obj.scrollBox1);
@@ -1519,6 +1621,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label102:setHorzTextAlign("center");
     obj.label102:setName("label102");
     lfm_setPropAsString(obj.label102, "fontStyle",  "bold");
+    obj.label102:setFontSize(14);
 
     obj.label103 = GUI.fromHandle(_obj_newObject("label"));
     obj.label103:setParent(obj.layout58);
@@ -1529,6 +1632,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label103:setHorzTextAlign("center");
     obj.label103:setName("label103");
     lfm_setPropAsString(obj.label103, "fontStyle",  "bold");
+    obj.label103:setFontSize(14);
 
     obj.layout59 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout59:setParent(obj.scrollBox1);
@@ -1547,6 +1651,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label104:setHorzTextAlign("center");
     obj.label104:setName("label104");
     lfm_setPropAsString(obj.label104, "fontStyle",  "bold");
+    obj.label104:setFontSize(14);
 
     obj.label105 = GUI.fromHandle(_obj_newObject("label"));
     obj.label105:setParent(obj.layout59);
@@ -1557,6 +1662,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label105:setHorzTextAlign("center");
     obj.label105:setName("label105");
     lfm_setPropAsString(obj.label105, "fontStyle",  "bold");
+    obj.label105:setFontSize(14);
 
     obj.rectangle1 = GUI.fromHandle(_obj_newObject("rectangle"));
     obj.rectangle1:setParent(obj.scrollBox1);
@@ -1578,6 +1684,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label106:setText("AVATAR");
     obj.label106:setName("label106");
     lfm_setPropAsString(obj.label106, "fontStyle",  "bold");
+    obj.label106:setFontSize(14);
 
     obj.label107 = GUI.fromHandle(_obj_newObject("label"));
     obj.label107:setParent(obj.rectangle1);
@@ -1589,6 +1696,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label107:setHorzTextAlign("center");
     obj.label107:setName("label107");
     lfm_setPropAsString(obj.label107, "fontStyle",  "bold");
+    obj.label107:setFontSize(14);
 
     obj.image1 = GUI.fromHandle(_obj_newObject("image"));
     obj.image1:setParent(obj.rectangle1);
@@ -1695,6 +1803,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label108:setName("label108");
     obj.label108:setFontColor("#FF0000");
     lfm_setPropAsString(obj.label108, "fontStyle",  "bold");
+    obj.label108:setFontSize(14);
 
     obj.edit14 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit14:setParent(obj.layout60);
@@ -1719,6 +1828,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label109:setName("label109");
     obj.label109:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label109, "fontStyle",  "bold");
+    obj.label109:setFontSize(14);
 
     obj.edit15 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit15:setParent(obj.layout61);
@@ -1743,6 +1853,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label110:setName("label110");
     obj.label110:setFontColor("#ADFF2F");
     lfm_setPropAsString(obj.label110, "fontStyle",  "bold");
+    obj.label110:setFontSize(14);
 
     obj.edit16 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit16:setParent(obj.layout62);
@@ -1767,6 +1878,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label111:setName("label111");
     obj.label111:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label111, "fontStyle",  "bold");
+    obj.label111:setFontSize(14);
 
     obj.edit17 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit17:setParent(obj.layout63);
@@ -1791,6 +1903,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label112:setName("label112");
     obj.label112:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label112, "fontStyle",  "bold");
+    obj.label112:setFontSize(14);
 
     obj.edit18 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit18:setParent(obj.layout64);
@@ -1815,6 +1928,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label113:setName("label113");
     obj.label113:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label113, "fontStyle",  "bold");
+    obj.label113:setFontSize(14);
 
     obj.edit19 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit19:setParent(obj.layout65);
@@ -1839,6 +1953,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label114:setName("label114");
     obj.label114:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label114, "fontStyle",  "bold");
+    obj.label114:setFontSize(14);
 
     obj.edit20 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit20:setParent(obj.layout66);
@@ -1863,6 +1978,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label115:setName("label115");
     obj.label115:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label115, "fontStyle",  "bold");
+    obj.label115:setFontSize(14);
 
     obj.edit21 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit21:setParent(obj.layout67);
@@ -1887,6 +2003,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label116:setName("label116");
     obj.label116:setFontColor("#FF0000");
     lfm_setPropAsString(obj.label116, "fontStyle",  "bold");
+    obj.label116:setFontSize(14);
 
     obj.edit22 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit22:setParent(obj.layout68);
@@ -1911,6 +2028,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label117:setName("label117");
     obj.label117:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label117, "fontStyle",  "bold");
+    obj.label117:setFontSize(14);
 
     obj.edit23 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit23:setParent(obj.layout69);
@@ -1935,6 +2053,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label118:setName("label118");
     obj.label118:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label118, "fontStyle",  "bold");
+    obj.label118:setFontSize(14);
 
     obj.edit24 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit24:setParent(obj.layout70);
@@ -1959,6 +2078,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label119:setName("label119");
     obj.label119:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label119, "fontStyle",  "bold");
+    obj.label119:setFontSize(14);
 
     obj.edit25 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit25:setParent(obj.layout71);
@@ -1983,6 +2103,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label120:setName("label120");
     obj.label120:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label120, "fontStyle",  "bold");
+    obj.label120:setFontSize(14);
 
     obj.edit26 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit26:setParent(obj.layout72);
@@ -2007,6 +2128,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label121:setName("label121");
     obj.label121:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label121, "fontStyle",  "bold");
+    obj.label121:setFontSize(14);
 
     obj.edit27 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit27:setParent(obj.layout73);
@@ -2031,6 +2153,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label122:setName("label122");
     obj.label122:setFontColor("#ADFF2F");
     lfm_setPropAsString(obj.label122, "fontStyle",  "bold");
+    obj.label122:setFontSize(14);
 
     obj.edit28 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit28:setParent(obj.layout74);
@@ -2055,6 +2178,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label123:setName("label123");
     obj.label123:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label123, "fontStyle",  "bold");
+    obj.label123:setFontSize(14);
 
     obj.edit29 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit29:setParent(obj.layout75);
@@ -2079,6 +2203,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label124:setName("label124");
     obj.label124:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label124, "fontStyle",  "bold");
+    obj.label124:setFontSize(14);
 
     obj.edit30 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit30:setParent(obj.layout76);
@@ -2103,6 +2228,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label125:setName("label125");
     obj.label125:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label125, "fontStyle",  "bold");
+    obj.label125:setFontSize(14);
 
     obj.edit31 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit31:setParent(obj.layout77);
@@ -2127,6 +2253,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label126:setName("label126");
     obj.label126:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label126, "fontStyle",  "bold");
+    obj.label126:setFontSize(14);
 
     obj.edit32 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit32:setParent(obj.layout78);
@@ -2151,6 +2278,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label127:setName("label127");
     obj.label127:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label127, "fontStyle",  "bold");
+    obj.label127:setFontSize(14);
 
     obj.edit33 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit33:setParent(obj.layout79);
@@ -2175,6 +2303,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label128:setName("label128");
     obj.label128:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label128, "fontStyle",  "bold");
+    obj.label128:setFontSize(14);
 
     obj.edit34 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit34:setParent(obj.layout80);
@@ -2199,6 +2328,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label129:setName("label129");
     obj.label129:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label129, "fontStyle",  "bold");
+    obj.label129:setFontSize(14);
 
     obj.edit35 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit35:setParent(obj.layout81);
@@ -2223,6 +2353,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label130:setName("label130");
     obj.label130:setFontColor("#FF0000");
     lfm_setPropAsString(obj.label130, "fontStyle",  "bold");
+    obj.label130:setFontSize(14);
 
     obj.edit36 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit36:setParent(obj.layout82);
@@ -2247,6 +2378,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label131:setName("label131");
     obj.label131:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label131, "fontStyle",  "bold");
+    obj.label131:setFontSize(14);
 
     obj.edit37 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit37:setParent(obj.layout83);
@@ -2271,6 +2403,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label132:setName("label132");
     obj.label132:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label132, "fontStyle",  "bold");
+    obj.label132:setFontSize(14);
 
     obj.edit38 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit38:setParent(obj.layout84);
@@ -2295,6 +2428,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label133:setName("label133");
     obj.label133:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label133, "fontStyle",  "bold");
+    obj.label133:setFontSize(14);
 
     obj.edit39 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit39:setParent(obj.layout85);
@@ -2319,6 +2453,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label134:setName("label134");
     obj.label134:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label134, "fontStyle",  "bold");
+    obj.label134:setFontSize(14);
 
     obj.edit40 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit40:setParent(obj.layout86);
@@ -2343,6 +2478,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label135:setName("label135");
     obj.label135:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label135, "fontStyle",  "bold");
+    obj.label135:setFontSize(14);
 
     obj.edit41 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit41:setParent(obj.layout87);
@@ -2367,6 +2503,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label136:setName("label136");
     obj.label136:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label136, "fontStyle",  "bold");
+    obj.label136:setFontSize(14);
 
     obj.edit42 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit42:setParent(obj.layout88);
@@ -2391,6 +2528,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label137:setName("label137");
     obj.label137:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label137, "fontStyle",  "bold");
+    obj.label137:setFontSize(14);
 
     obj.edit43 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit43:setParent(obj.layout89);
@@ -2415,6 +2553,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label138:setName("label138");
     obj.label138:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label138, "fontStyle",  "bold");
+    obj.label138:setFontSize(14);
 
     obj.edit44 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit44:setParent(obj.layout90);
@@ -2439,6 +2578,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label139:setName("label139");
     obj.label139:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label139, "fontStyle",  "bold");
+    obj.label139:setFontSize(14);
 
     obj.edit45 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit45:setParent(obj.layout91);
@@ -2463,6 +2603,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label140:setName("label140");
     obj.label140:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label140, "fontStyle",  "bold");
+    obj.label140:setFontSize(14);
 
     obj.edit46 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit46:setParent(obj.layout92);
@@ -2487,6 +2628,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label141:setName("label141");
     obj.label141:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label141, "fontStyle",  "bold");
+    obj.label141:setFontSize(14);
 
     obj.edit47 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit47:setParent(obj.layout93);
@@ -2511,6 +2653,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label142:setName("label142");
     obj.label142:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label142, "fontStyle",  "bold");
+    obj.label142:setFontSize(14);
 
     obj.edit48 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit48:setParent(obj.layout94);
@@ -2650,6 +2793,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label143:setName("label143");
     obj.label143:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label143, "fontStyle",  "bold");
+    obj.label143:setFontSize(14);
 
     obj.edit59 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit59:setParent(obj.layout100);
@@ -2674,6 +2818,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label144:setName("label144");
     obj.label144:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label144, "fontStyle",  "bold");
+    obj.label144:setFontSize(14);
 
     obj.edit60 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit60:setParent(obj.layout101);
@@ -2698,6 +2843,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label145:setName("label145");
     obj.label145:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label145, "fontStyle",  "bold");
+    obj.label145:setFontSize(14);
 
     obj.edit61 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit61:setParent(obj.layout102);
@@ -2722,6 +2868,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label146:setName("label146");
     obj.label146:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label146, "fontStyle",  "bold");
+    obj.label146:setFontSize(14);
 
     obj.edit62 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit62:setParent(obj.layout103);
@@ -2746,6 +2893,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label147:setName("label147");
     obj.label147:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label147, "fontStyle",  "bold");
+    obj.label147:setFontSize(14);
 
     obj.edit63 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit63:setParent(obj.layout104);
@@ -2784,6 +2932,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label148:setAutoSize(true);
     obj.label148:setName("label148");
     lfm_setPropAsString(obj.label148, "fontStyle",  "bold");
+    obj.label148:setFontSize(14);
 
     obj.edit64 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit64:setParent(obj.layout105);
@@ -2807,6 +2956,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label149:setAutoSize(true);
     obj.label149:setName("label149");
     lfm_setPropAsString(obj.label149, "fontStyle",  "bold");
+    obj.label149:setFontSize(14);
 
     obj.edit65 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit65:setParent(obj.layout106);
@@ -2830,6 +2980,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label150:setAutoSize(true);
     obj.label150:setName("label150");
     lfm_setPropAsString(obj.label150, "fontStyle",  "bold");
+    obj.label150:setFontSize(14);
 
     obj.edit66 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit66:setParent(obj.layout107);
@@ -2853,6 +3004,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label151:setAutoSize(true);
     obj.label151:setName("label151");
     lfm_setPropAsString(obj.label151, "fontStyle",  "bold");
+    obj.label151:setFontSize(14);
 
     obj.edit67 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit67:setParent(obj.layout108);
@@ -2876,6 +3028,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label152:setAutoSize(true);
     obj.label152:setName("label152");
     lfm_setPropAsString(obj.label152, "fontStyle",  "bold");
+    obj.label152:setFontSize(14);
 
     obj.edit68 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit68:setParent(obj.layout109);
@@ -2899,6 +3052,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label153:setAutoSize(true);
     obj.label153:setName("label153");
     lfm_setPropAsString(obj.label153, "fontStyle",  "bold");
+    obj.label153:setFontSize(14);
 
     obj.edit69 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit69:setParent(obj.layout110);
@@ -2922,6 +3076,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label154:setAutoSize(true);
     obj.label154:setName("label154");
     lfm_setPropAsString(obj.label154, "fontStyle",  "bold");
+    obj.label154:setFontSize(14);
 
     obj.edit70 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit70:setParent(obj.layout111);
@@ -2945,6 +3100,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label155:setAutoSize(true);
     obj.label155:setName("label155");
     lfm_setPropAsString(obj.label155, "fontStyle",  "bold");
+    obj.label155:setFontSize(14);
 
     obj.edit71 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit71:setParent(obj.layout112);
@@ -2968,6 +3124,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label156:setAutoSize(true);
     obj.label156:setName("label156");
     lfm_setPropAsString(obj.label156, "fontStyle",  "bold");
+    obj.label156:setFontSize(14);
 
     obj.edit72 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit72:setParent(obj.layout113);
@@ -2991,6 +3148,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label157:setAutoSize(true);
     obj.label157:setName("label157");
     lfm_setPropAsString(obj.label157, "fontStyle",  "bold");
+    obj.label157:setFontSize(14);
 
     obj.edit73 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit73:setParent(obj.layout114);
@@ -3014,6 +3172,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label158:setAutoSize(true);
     obj.label158:setName("label158");
     lfm_setPropAsString(obj.label158, "fontStyle",  "bold");
+    obj.label158:setFontSize(14);
 
     obj.edit74 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit74:setParent(obj.layout115);
@@ -3037,6 +3196,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label159:setAutoSize(true);
     obj.label159:setName("label159");
     lfm_setPropAsString(obj.label159, "fontStyle",  "bold");
+    obj.label159:setFontSize(14);
 
     obj.edit75 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit75:setParent(obj.layout116);
@@ -3060,6 +3220,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label160:setAutoSize(true);
     obj.label160:setName("label160");
     lfm_setPropAsString(obj.label160, "fontStyle",  "bold");
+    obj.label160:setFontSize(14);
 
     obj.edit76 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit76:setParent(obj.layout117);
@@ -3083,6 +3244,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label161:setAutoSize(true);
     obj.label161:setName("label161");
     lfm_setPropAsString(obj.label161, "fontStyle",  "bold");
+    obj.label161:setFontSize(14);
 
     obj.edit77 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit77:setParent(obj.layout118);
@@ -3106,6 +3268,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label162:setAutoSize(true);
     obj.label162:setName("label162");
     lfm_setPropAsString(obj.label162, "fontStyle",  "bold");
+    obj.label162:setFontSize(14);
 
     obj.edit78 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit78:setParent(obj.layout119);
@@ -3129,6 +3292,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label163:setAutoSize(true);
     obj.label163:setName("label163");
     lfm_setPropAsString(obj.label163, "fontStyle",  "bold");
+    obj.label163:setFontSize(14);
 
     obj.edit79 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit79:setParent(obj.layout120);
@@ -3152,6 +3316,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label164:setAutoSize(true);
     obj.label164:setName("label164");
     lfm_setPropAsString(obj.label164, "fontStyle",  "bold");
+    obj.label164:setFontSize(14);
 
     obj.edit80 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit80:setParent(obj.layout121);
@@ -3175,6 +3340,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label165:setAutoSize(true);
     obj.label165:setName("label165");
     lfm_setPropAsString(obj.label165, "fontStyle",  "bold");
+    obj.label165:setFontSize(14);
 
     obj.edit81 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit81:setParent(obj.layout122);
@@ -3198,6 +3364,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label166:setAutoSize(true);
     obj.label166:setName("label166");
     lfm_setPropAsString(obj.label166, "fontStyle",  "bold");
+    obj.label166:setFontSize(14);
 
     obj.edit82 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit82:setParent(obj.layout123);
@@ -3221,6 +3388,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label167:setAutoSize(true);
     obj.label167:setName("label167");
     lfm_setPropAsString(obj.label167, "fontStyle",  "bold");
+    obj.label167:setFontSize(14);
 
     obj.edit83 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit83:setParent(obj.layout124);
@@ -3244,6 +3412,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label168:setAutoSize(true);
     obj.label168:setName("label168");
     lfm_setPropAsString(obj.label168, "fontStyle",  "bold");
+    obj.label168:setFontSize(14);
 
     obj.edit84 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit84:setParent(obj.layout125);
@@ -3267,6 +3436,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label169:setAutoSize(true);
     obj.label169:setName("label169");
     lfm_setPropAsString(obj.label169, "fontStyle",  "bold");
+    obj.label169:setFontSize(14);
 
     obj.edit85 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit85:setParent(obj.layout126);
@@ -3290,6 +3460,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label170:setAutoSize(true);
     obj.label170:setName("label170");
     lfm_setPropAsString(obj.label170, "fontStyle",  "bold");
+    obj.label170:setFontSize(14);
 
     obj.edit86 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit86:setParent(obj.layout127);
@@ -3313,6 +3484,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label171:setAutoSize(true);
     obj.label171:setName("label171");
     lfm_setPropAsString(obj.label171, "fontStyle",  "bold");
+    obj.label171:setFontSize(14);
 
     obj.edit87 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit87:setParent(obj.layout128);
@@ -3336,6 +3508,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label172:setAutoSize(true);
     obj.label172:setName("label172");
     lfm_setPropAsString(obj.label172, "fontStyle",  "bold");
+    obj.label172:setFontSize(14);
 
     obj.edit88 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit88:setParent(obj.layout129);
@@ -3359,6 +3532,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label173:setAutoSize(true);
     obj.label173:setName("label173");
     lfm_setPropAsString(obj.label173, "fontStyle",  "bold");
+    obj.label173:setFontSize(14);
 
     obj.edit89 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit89:setParent(obj.layout130);
@@ -3382,6 +3556,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label174:setAutoSize(true);
     obj.label174:setName("label174");
     lfm_setPropAsString(obj.label174, "fontStyle",  "bold");
+    obj.label174:setFontSize(14);
 
     obj.edit90 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit90:setParent(obj.layout131);
@@ -3405,6 +3580,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label175:setAutoSize(true);
     obj.label175:setName("label175");
     lfm_setPropAsString(obj.label175, "fontStyle",  "bold");
+    obj.label175:setFontSize(14);
 
     obj.edit91 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit91:setParent(obj.layout132);
@@ -3428,6 +3604,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label176:setAutoSize(true);
     obj.label176:setName("label176");
     lfm_setPropAsString(obj.label176, "fontStyle",  "bold");
+    obj.label176:setFontSize(14);
 
     obj.edit92 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit92:setParent(obj.layout133);
@@ -3451,6 +3628,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label177:setAutoSize(true);
     obj.label177:setName("label177");
     lfm_setPropAsString(obj.label177, "fontStyle",  "bold");
+    obj.label177:setFontSize(14);
 
     obj.edit93 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit93:setParent(obj.layout134);
@@ -3474,6 +3652,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label178:setAutoSize(true);
     obj.label178:setName("label178");
     lfm_setPropAsString(obj.label178, "fontStyle",  "bold");
+    obj.label178:setFontSize(14);
 
     obj.edit94 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit94:setParent(obj.layout135);
@@ -3497,6 +3676,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label179:setAutoSize(true);
     obj.label179:setName("label179");
     lfm_setPropAsString(obj.label179, "fontStyle",  "bold");
+    obj.label179:setFontSize(14);
 
     obj.edit95 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit95:setParent(obj.layout136);
@@ -3520,6 +3700,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label180:setAutoSize(true);
     obj.label180:setName("label180");
     lfm_setPropAsString(obj.label180, "fontStyle",  "bold");
+    obj.label180:setFontSize(14);
 
     obj.edit96 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit96:setParent(obj.layout137);
@@ -3587,6 +3768,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label181:setAutoSize(true);
     obj.label181:setName("label181");
     lfm_setPropAsString(obj.label181, "fontStyle",  "bold");
+    obj.label181:setFontSize(14);
 
     obj.edit97 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit97:setParent(obj.layout139);
@@ -3644,6 +3826,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label182:setAutoSize(true);
     obj.label182:setName("label182");
     lfm_setPropAsString(obj.label182, "fontStyle",  "bold");
+    obj.label182:setFontSize(14);
 
     obj.edit99 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit99:setParent(obj.layout142);
@@ -3689,6 +3872,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label183:setText("Dar ENTER nas descrições e titulos para salvar. Legenda: [P] Poderes, [D] Domínio, [T] Talentos, [M] Magias");
     obj.label183:setName("label183");
     lfm_setPropAsString(obj.label183, "fontStyle",  "bold");
+    obj.label183:setFontSize(14);
 
     obj.button3 = GUI.fromHandle(_obj_newObject("button"));
     obj.button3:setParent(obj.scrollBox6);
@@ -3705,7 +3889,7 @@ local function constructNew_frmAlvorecerT20()
     obj.rcllistaMagias:setAlign("top");
     obj.rcllistaMagias:setSelectable(true);
     obj.rcllistaMagias:setLayout("horizontal");
-    obj.rcllistaMagias:setHeight(200);
+    obj.rcllistaMagias:setHeight(150);
     obj.rcllistaMagias:setWidth(300);
 
     obj.boxDestalhesDaMagia = GUI.fromHandle(_obj_newObject("dataScopeBox"));
@@ -3743,20 +3927,13 @@ local function constructNew_frmAlvorecerT20()
     obj.label184:setAutoSize(true);
     obj.label184:setName("label184");
     lfm_setPropAsString(obj.label184, "fontStyle",  "bold");
+    obj.label184:setFontSize(14);
 
     obj.edit100 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit100:setParent(obj.layout144);
     obj.edit100:setAlign("client");
     obj.edit100:setField("campoTitulo");
     obj.edit100:setName("edit100");
-
-    obj.button4 = GUI.fromHandle(_obj_newObject("button"));
-    obj.button4:setParent(obj.layout144);
-    obj.button4:setAlign("right");
-    obj.button4:setText("Apagar!");
-    obj.button4:setMargins({left=4, right=4, top=2, bottom=2});
-    obj.button4:setWidth(150);
-    obj.button4:setName("button4");
 
     obj.layout145 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout145:setParent(obj.scrollBox7);
@@ -3797,7 +3974,7 @@ local function constructNew_frmAlvorecerT20()
     obj.textEditor2:setAlign("top");
     obj.textEditor2:setField("campoTextoGrande");
     obj.textEditor2:setFontSize(14);
-    obj.textEditor2:setHeight(700);
+    obj.textEditor2:setHeight(800);
     obj.textEditor2:setName("textEditor2");
 
     obj.tab5 = GUI.fromHandle(_obj_newObject("tab"));
@@ -3837,13 +4014,14 @@ local function constructNew_frmAlvorecerT20()
     obj.label185:setText("Dar ENTER nas descrições e titulos para salvar. Legenda: [Nome Esfera] [Nível] [Desc da Magia]");
     obj.label185:setName("label185");
     lfm_setPropAsString(obj.label185, "fontStyle",  "bold");
+    obj.label185:setFontSize(14);
 
-    obj.button5 = GUI.fromHandle(_obj_newObject("button"));
-    obj.button5:setParent(obj.scrollBox10);
-    obj.button5:setText("Criar Nova Magia de Esfera");
-    obj.button5:setWidth(300);
-    obj.button5:setAlign("left");
-    obj.button5:setName("button5");
+    obj.button4 = GUI.fromHandle(_obj_newObject("button"));
+    obj.button4:setParent(obj.scrollBox10);
+    obj.button4:setText("Criar Nova Magia de Esfera");
+    obj.button4:setWidth(300);
+    obj.button4:setAlign("left");
+    obj.button4:setName("button4");
 
     obj.rcllistaEsfera = GUI.fromHandle(_obj_newObject("recordList"));
     obj.rcllistaEsfera:setParent(obj.scrollBox9);
@@ -3853,7 +4031,7 @@ local function constructNew_frmAlvorecerT20()
     obj.rcllistaEsfera:setAlign("top");
     obj.rcllistaEsfera:setSelectable(true);
     obj.rcllistaEsfera:setLayout("horizontal");
-    obj.rcllistaEsfera:setHeight(200);
+    obj.rcllistaEsfera:setHeight(150);
     obj.rcllistaEsfera:setWidth(300);
 
     obj.boxDetalhedaEsfera = GUI.fromHandle(_obj_newObject("dataScopeBox"));
@@ -3891,6 +4069,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label186:setAutoSize(true);
     obj.label186:setName("label186");
     lfm_setPropAsString(obj.label186, "fontStyle",  "bold");
+    obj.label186:setFontSize(14);
 
     obj.edit102 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit102:setParent(obj.layout148);
@@ -3898,13 +4077,13 @@ local function constructNew_frmAlvorecerT20()
     obj.edit102:setField("campoTitulo");
     obj.edit102:setName("edit102");
 
-    obj.button6 = GUI.fromHandle(_obj_newObject("button"));
-    obj.button6:setParent(obj.layout148);
-    obj.button6:setAlign("right");
-    obj.button6:setText("Apagar!");
-    obj.button6:setMargins({left=4, right=4, top=2, bottom=2});
-    obj.button6:setWidth(150);
-    obj.button6:setName("button6");
+    obj.button5 = GUI.fromHandle(_obj_newObject("button"));
+    obj.button5:setParent(obj.layout148);
+    obj.button5:setAlign("right");
+    obj.button5:setText("Apagar!");
+    obj.button5:setMargins({left=4, right=4, top=2, bottom=2});
+    obj.button5:setWidth(150);
+    obj.button5:setName("button5");
 
     obj.layout149 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout149:setParent(obj.scrollBox11);
@@ -3945,7 +4124,7 @@ local function constructNew_frmAlvorecerT20()
     obj.textEditor3:setAlign("top");
     obj.textEditor3:setField("campoTextoGrande");
     obj.textEditor3:setFontSize(14);
-    obj.textEditor3:setHeight(700);
+    obj.textEditor3:setHeight(800);
     obj.textEditor3:setName("textEditor3");
 
     obj.tab6 = GUI.fromHandle(_obj_newObject("tab"));
@@ -3991,9 +4170,11 @@ local function constructNew_frmAlvorecerT20()
     obj.label187:setText("CARACTERÍSTICAS FÍSICAS E PSICOLÓGICAS");
     obj.label187:setName("label187");
     lfm_setPropAsString(obj.label187, "fontStyle",  "bold");
+    obj.label187:setFontSize(14);
 
     obj.textEditor4 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor4:setParent(obj.scrollBox14);
+    obj.textEditor4:setFontSize(14);
     obj.textEditor4:setLeft(5);
     obj.textEditor4:setTop(25);
     obj.textEditor4:setWidth(400);
@@ -4026,12 +4207,14 @@ local function constructNew_frmAlvorecerT20()
     obj.label188:setTop(1);
     obj.label188:setWidth(200);
     obj.label188:setHeight(20);
-    obj.label188:setText("ANOTAÇÕES DO JOGADOR");
+    obj.label188:setText("ANOTAÇÕES EXTRAS");
     obj.label188:setName("label188");
     lfm_setPropAsString(obj.label188, "fontStyle",  "bold");
+    obj.label188:setFontSize(14);
 
     obj.textEditor5 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor5:setParent(obj.scrollBox15);
+    obj.textEditor5:setFontSize(14);
     obj.textEditor5:setLeft(5);
     obj.textEditor5:setTop(25);
     obj.textEditor5:setWidth(400);
@@ -4043,7 +4226,7 @@ local function constructNew_frmAlvorecerT20()
     obj.layout153:setParent(obj.scrollBox13);
     obj.layout153:setLeft(410);
     obj.layout153:setTop(0);
-    obj.layout153:setWidth(600);
+    obj.layout153:setWidth(900);
     obj.layout153:setHeight(400);
     obj.layout153:setName("layout153");
 
@@ -4062,12 +4245,13 @@ local function constructNew_frmAlvorecerT20()
     obj.label189:setText("HISTORIA");
     obj.label189:setName("label189");
     lfm_setPropAsString(obj.label189, "fontStyle",  "bold");
+    obj.label189:setFontSize(14);
 
     obj.richEdit1 = GUI.fromHandle(_obj_newObject("richEdit"));
     obj.richEdit1:setParent(obj.layout153);
     obj.richEdit1:setLeft(5);
     obj.richEdit1:setTop(25);
-    obj.richEdit1:setWidth(580);
+    obj.richEdit1:setWidth(850);
     obj.richEdit1:setHeight(350);
     obj.richEdit1:setField("background");
     lfm_setPropAsString(obj.richEdit1, "backgroundColor",  "#333333");
@@ -4079,7 +4263,7 @@ local function constructNew_frmAlvorecerT20()
     obj.layout154:setParent(obj.scrollBox13);
     obj.layout154:setLeft(410);
     obj.layout154:setTop(380);
-    obj.layout154:setWidth(600);
+    obj.layout154:setWidth(900);
     obj.layout154:setHeight(400);
     obj.layout154:setName("layout154");
 
@@ -4098,44 +4282,22 @@ local function constructNew_frmAlvorecerT20()
     obj.label190:setParent(obj.scrollBox16);
     obj.label190:setLeft(5);
     obj.label190:setTop(1);
-    obj.label190:setWidth(200);
+    obj.label190:setWidth(600);
     obj.label190:setHeight(20);
-    obj.label190:setText("ANOTAÇÕES DO MESTRE");
+    obj.label190:setText("ANOTAÇÕES SOBRE DESENVOLVIMENTO DA PERSONAGEM");
     obj.label190:setName("label190");
     lfm_setPropAsString(obj.label190, "fontStyle",  "bold");
+    obj.label190:setFontSize(14);
 
     obj.textEditor6 = GUI.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor6:setParent(obj.scrollBox16);
+    obj.textEditor6:setFontSize(14);
     obj.textEditor6:setLeft(5);
     obj.textEditor6:setTop(25);
-    obj.textEditor6:setWidth(400);
+    obj.textEditor6:setWidth(850);
     obj.textEditor6:setHeight(350);
     obj.textEditor6:setField("anotacoes2");
     obj.textEditor6:setName("textEditor6");
-
-    obj.scrollBox17 = GUI.fromHandle(_obj_newObject("scrollBox"));
-    obj.scrollBox17:setParent(obj.layout154);
-    obj.scrollBox17:setAlign("client");
-    obj.scrollBox17:setName("scrollBox17");
-
-    obj.label191 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label191:setParent(obj.scrollBox17);
-    obj.label191:setLeft(415);
-    obj.label191:setTop(1);
-    obj.label191:setWidth(200);
-    obj.label191:setHeight(20);
-    obj.label191:setText("CARACTERISTICAS EXTRAS");
-    obj.label191:setName("label191");
-    lfm_setPropAsString(obj.label191, "fontStyle",  "bold");
-
-    obj.textEditor7 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor7:setParent(obj.scrollBox17);
-    obj.textEditor7:setLeft(415);
-    obj.textEditor7:setTop(25);
-    obj.textEditor7:setWidth(170);
-    obj.textEditor7:setHeight(350);
-    obj.textEditor7:setField("extra");
-    obj.textEditor7:setName("textEditor7");
 
     obj.tab7 = GUI.fromHandle(_obj_newObject("tab"));
     obj.tab7:setParent(obj.tabControl1);
@@ -4147,13 +4309,13 @@ local function constructNew_frmAlvorecerT20()
     obj.frmhistoricodeModificacoes:setName("frmhistoricodeModificacoes");
     obj.frmhistoricodeModificacoes:setAlign("client");
 
-    obj.scrollBox18 = GUI.fromHandle(_obj_newObject("scrollBox"));
-    obj.scrollBox18:setParent(obj.frmhistoricodeModificacoes);
-    obj.scrollBox18:setAlign("client");
-    obj.scrollBox18:setName("scrollBox18");
+    obj.scrollBox17 = GUI.fromHandle(_obj_newObject("scrollBox"));
+    obj.scrollBox17:setParent(obj.frmhistoricodeModificacoes);
+    obj.scrollBox17:setAlign("client");
+    obj.scrollBox17:setName("scrollBox17");
 
     obj.layout155 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout155:setParent(obj.scrollBox18);
+    obj.layout155:setParent(obj.scrollBox17);
     obj.layout155:setLeft(0);
     obj.layout155:setTop(0);
     obj.layout155:setWidth(1366);
@@ -4166,15 +4328,16 @@ local function constructNew_frmAlvorecerT20()
     obj.rectangle9:setColor("black");
     obj.rectangle9:setName("rectangle9");
 
-    obj.label192 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label192:setParent(obj.layout155);
-    obj.label192:setLeft(5);
-    obj.label192:setTop(1);
-    obj.label192:setWidth(300);
-    obj.label192:setHeight(20);
-    obj.label192:setText("Historico de Modificações do Personagem");
-    obj.label192:setName("label192");
-    lfm_setPropAsString(obj.label192, "fontStyle",  "bold");
+    obj.label191 = GUI.fromHandle(_obj_newObject("label"));
+    obj.label191:setParent(obj.layout155);
+    obj.label191:setLeft(5);
+    obj.label191:setTop(1);
+    obj.label191:setWidth(300);
+    obj.label191:setHeight(20);
+    obj.label191:setText("Historico de Modificações do Personagem");
+    obj.label191:setName("label191");
+    lfm_setPropAsString(obj.label191, "fontStyle",  "bold");
+    obj.label191:setFontSize(14);
 
     obj.richEdit2 = GUI.fromHandle(_obj_newObject("richEdit"));
     obj.richEdit2:setParent(obj.layout155);
@@ -4678,17 +4841,12 @@ local function constructNew_frmAlvorecerT20()
 
     obj._e_event18 = obj.button4:addEventListener("onClick",
         function (_)
-            ndb.deleteNode(self.boxDestalhesDaMagia.node);
-        end, obj);
-
-    obj._e_event19 = obj.button5:addEventListener("onClick",
-        function (_)
             -- Usuário clicou no botão de criar novo item.
                                             -- Vamos inserir um novo item no nosso recordList                              
                                             self.rcllistaEsfera:append();
         end, obj);
 
-    obj._e_event20 = obj.rcllistaEsfera:addEventListener("onSelect",
+    obj._e_event19 = obj.rcllistaEsfera:addEventListener("onSelect",
         function (_)
             --[[
                                     Este evento é chamado quando o usuário selecionar/deselecionar itens da lista. Quando o usuário selecionar, vamos fazer nosso dataScopeBox (e todas as tag dentro dele) salvar e carregar dados no   objeto Nodo (NodeDatabase) do item selecionado.
@@ -4700,18 +4858,17 @@ local function constructNew_frmAlvorecerT20()
                                           self.boxDetalhedaEsfera.visible = (node ~= nil);
         end, obj);
 
-    obj._e_event21 = obj.rcllistaEsfera:addEventListener("onCompare",
+    obj._e_event20 = obj.rcllistaEsfera:addEventListener("onCompare",
         function (_, nodeA, nodeB)
             return utils.compareStringPtBr(nodeA.campoTitulo, nodeB.campoTitulo);
         end, obj);
 
-    obj._e_event22 = obj.button6:addEventListener("onClick",
+    obj._e_event21 = obj.button5:addEventListener("onClick",
         function (_)
             ndb.deleteNode(self.boxDetalhedaEsfera.node);
         end, obj);
 
     function obj:_releaseEvents()
-        __o_rrpgObjs.removeEventListenerById(self._e_event22);
         __o_rrpgObjs.removeEventListenerById(self._e_event21);
         __o_rrpgObjs.removeEventListenerById(self._e_event20);
         __o_rrpgObjs.removeEventListenerById(self._e_event19);
@@ -4782,7 +4939,6 @@ local function constructNew_frmAlvorecerT20()
         if self.edit82 ~= nil then self.edit82:destroy(); self.edit82 = nil; end;
         if self.label164 ~= nil then self.label164:destroy(); self.label164 = nil; end;
         if self.label122 ~= nil then self.label122:destroy(); self.label122 = nil; end;
-        if self.label192 ~= nil then self.label192:destroy(); self.label192 = nil; end;
         if self.layout62 ~= nil then self.layout62:destroy(); self.layout62 = nil; end;
         if self.layout89 ~= nil then self.layout89:destroy(); self.layout89 = nil; end;
         if self.rectangle5 ~= nil then self.rectangle5:destroy(); self.rectangle5 = nil; end;
@@ -4947,7 +5103,6 @@ local function constructNew_frmAlvorecerT20()
         if self.layout148 ~= nil then self.layout148:destroy(); self.layout148 = nil; end;
         if self.label133 ~= nil then self.label133:destroy(); self.label133 = nil; end;
         if self.edit21 ~= nil then self.edit21:destroy(); self.edit21 = nil; end;
-        if self.scrollBox18 ~= nil then self.scrollBox18:destroy(); self.scrollBox18 = nil; end;
         if self.button3 ~= nil then self.button3:destroy(); self.button3 = nil; end;
         if self.label42 ~= nil then self.label42:destroy(); self.label42 = nil; end;
         if self.layout76 ~= nil then self.layout76:destroy(); self.layout76 = nil; end;
@@ -4963,7 +5118,6 @@ local function constructNew_frmAlvorecerT20()
         if self.label166 ~= nil then self.label166:destroy(); self.label166 = nil; end;
         if self.layout130 ~= nil then self.layout130:destroy(); self.layout130 = nil; end;
         if self.scrollBox10 ~= nil then self.scrollBox10:destroy(); self.scrollBox10 = nil; end;
-        if self.button6 ~= nil then self.button6:destroy(); self.button6 = nil; end;
         if self.button5 ~= nil then self.button5:destroy(); self.button5 = nil; end;
         if self.edit37 ~= nil then self.edit37:destroy(); self.edit37 = nil; end;
         if self.layout70 ~= nil then self.layout70:destroy(); self.layout70 = nil; end;
@@ -5073,7 +5227,6 @@ local function constructNew_frmAlvorecerT20()
         if self.layout143 ~= nil then self.layout143:destroy(); self.layout143 = nil; end;
         if self.label131 ~= nil then self.label131:destroy(); self.label131 = nil; end;
         if self.label16 ~= nil then self.label16:destroy(); self.label16 = nil; end;
-        if self.textEditor7 ~= nil then self.textEditor7:destroy(); self.textEditor7 = nil; end;
         if self.edit10 ~= nil then self.edit10:destroy(); self.edit10 = nil; end;
         if self.edit31 ~= nil then self.edit31:destroy(); self.edit31 = nil; end;
         if self.edit1 ~= nil then self.edit1:destroy(); self.edit1 = nil; end;

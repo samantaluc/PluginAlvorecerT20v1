@@ -50,6 +50,7 @@ local function constructNew_frmAtributosPericias()
     obj.label1:setName("label1");
     obj.label1:setFontColor("#FF0000");
     lfm_setPropAsString(obj.label1, "fontStyle",  "bold");
+    obj.label1:setFontSize(14);
 
     obj.edit1 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit1:setParent(obj.layout1);
@@ -74,6 +75,7 @@ local function constructNew_frmAtributosPericias()
     obj.label2:setName("label2");
     obj.label2:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label2, "fontStyle",  "bold");
+    obj.label2:setFontSize(14);
 
     obj.edit2 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit2:setParent(obj.layout2);
@@ -98,6 +100,7 @@ local function constructNew_frmAtributosPericias()
     obj.label3:setName("label3");
     obj.label3:setFontColor("#ADFF2F");
     lfm_setPropAsString(obj.label3, "fontStyle",  "bold");
+    obj.label3:setFontSize(14);
 
     obj.edit3 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit3:setParent(obj.layout3);
@@ -122,6 +125,7 @@ local function constructNew_frmAtributosPericias()
     obj.label4:setName("label4");
     obj.label4:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label4, "fontStyle",  "bold");
+    obj.label4:setFontSize(14);
 
     obj.edit4 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit4:setParent(obj.layout4);
@@ -146,6 +150,7 @@ local function constructNew_frmAtributosPericias()
     obj.label5:setName("label5");
     obj.label5:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label5, "fontStyle",  "bold");
+    obj.label5:setFontSize(14);
 
     obj.edit5 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit5:setParent(obj.layout5);
@@ -170,6 +175,7 @@ local function constructNew_frmAtributosPericias()
     obj.label6:setName("label6");
     obj.label6:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label6, "fontStyle",  "bold");
+    obj.label6:setFontSize(14);
 
     obj.edit6 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit6:setParent(obj.layout6);
@@ -194,6 +200,7 @@ local function constructNew_frmAtributosPericias()
     obj.label7:setName("label7");
     obj.label7:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label7, "fontStyle",  "bold");
+    obj.label7:setFontSize(14);
 
     obj.edit7 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit7:setParent(obj.layout7);
@@ -218,6 +225,7 @@ local function constructNew_frmAtributosPericias()
     obj.label8:setName("label8");
     obj.label8:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label8, "fontStyle",  "bold");
+    obj.label8:setFontSize(14);
 
     obj.edit8 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit8:setParent(obj.layout8);
@@ -242,6 +250,7 @@ local function constructNew_frmAtributosPericias()
     obj.label9:setName("label9");
     obj.label9:setFontColor("#FF0000");
     lfm_setPropAsString(obj.label9, "fontStyle",  "bold");
+    obj.label9:setFontSize(14);
 
     obj.edit9 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit9:setParent(obj.layout9);
@@ -266,6 +275,7 @@ local function constructNew_frmAtributosPericias()
     obj.label10:setName("label10");
     obj.label10:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label10, "fontStyle",  "bold");
+    obj.label10:setFontSize(14);
 
     obj.edit10 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit10:setParent(obj.layout10);
@@ -290,6 +300,7 @@ local function constructNew_frmAtributosPericias()
     obj.label11:setName("label11");
     obj.label11:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label11, "fontStyle",  "bold");
+    obj.label11:setFontSize(14);
 
     obj.edit11 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit11:setParent(obj.layout11);
@@ -314,6 +325,7 @@ local function constructNew_frmAtributosPericias()
     obj.label12:setName("label12");
     obj.label12:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label12, "fontStyle",  "bold");
+    obj.label12:setFontSize(14);
 
     obj.edit12 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit12:setParent(obj.layout12);
@@ -338,6 +350,7 @@ local function constructNew_frmAtributosPericias()
     obj.label13:setName("label13");
     obj.label13:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label13, "fontStyle",  "bold");
+    obj.label13:setFontSize(14);
 
     obj.edit13 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit13:setParent(obj.layout13);
@@ -362,6 +375,7 @@ local function constructNew_frmAtributosPericias()
     obj.label14:setName("label14");
     obj.label14:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label14, "fontStyle",  "bold");
+    obj.label14:setFontSize(14);
 
     obj.edit14 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit14:setParent(obj.layout14);
@@ -386,6 +400,7 @@ local function constructNew_frmAtributosPericias()
     obj.label15:setName("label15");
     obj.label15:setFontColor("#ADFF2F");
     lfm_setPropAsString(obj.label15, "fontStyle",  "bold");
+    obj.label15:setFontSize(14);
 
     obj.edit15 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit15:setParent(obj.layout15);
@@ -410,6 +425,7 @@ local function constructNew_frmAtributosPericias()
     obj.label16:setName("label16");
     obj.label16:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label16, "fontStyle",  "bold");
+    obj.label16:setFontSize(14);
 
     obj.edit16 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit16:setParent(obj.layout16);
@@ -434,6 +450,7 @@ local function constructNew_frmAtributosPericias()
     obj.label17:setName("label17");
     obj.label17:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label17, "fontStyle",  "bold");
+    obj.label17:setFontSize(14);
 
     obj.edit17 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit17:setParent(obj.layout17);
@@ -458,6 +475,7 @@ local function constructNew_frmAtributosPericias()
     obj.label18:setName("label18");
     obj.label18:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label18, "fontStyle",  "bold");
+    obj.label18:setFontSize(14);
 
     obj.edit18 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit18:setParent(obj.layout18);
@@ -482,6 +500,7 @@ local function constructNew_frmAtributosPericias()
     obj.label19:setName("label19");
     obj.label19:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label19, "fontStyle",  "bold");
+    obj.label19:setFontSize(14);
 
     obj.edit19 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit19:setParent(obj.layout19);
@@ -506,6 +525,7 @@ local function constructNew_frmAtributosPericias()
     obj.label20:setName("label20");
     obj.label20:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label20, "fontStyle",  "bold");
+    obj.label20:setFontSize(14);
 
     obj.edit20 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit20:setParent(obj.layout20);
@@ -530,6 +550,7 @@ local function constructNew_frmAtributosPericias()
     obj.label21:setName("label21");
     obj.label21:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label21, "fontStyle",  "bold");
+    obj.label21:setFontSize(14);
 
     obj.edit21 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit21:setParent(obj.layout21);
@@ -554,6 +575,7 @@ local function constructNew_frmAtributosPericias()
     obj.label22:setName("label22");
     obj.label22:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label22, "fontStyle",  "bold");
+    obj.label22:setFontSize(14);
 
     obj.edit22 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit22:setParent(obj.layout22);
@@ -578,6 +600,7 @@ local function constructNew_frmAtributosPericias()
     obj.label23:setName("label23");
     obj.label23:setFontColor("#FF0000");
     lfm_setPropAsString(obj.label23, "fontStyle",  "bold");
+    obj.label23:setFontSize(14);
 
     obj.edit23 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit23:setParent(obj.layout23);
@@ -602,6 +625,7 @@ local function constructNew_frmAtributosPericias()
     obj.label24:setName("label24");
     obj.label24:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label24, "fontStyle",  "bold");
+    obj.label24:setFontSize(14);
 
     obj.edit24 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit24:setParent(obj.layout24);
@@ -626,6 +650,7 @@ local function constructNew_frmAtributosPericias()
     obj.label25:setName("label25");
     obj.label25:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label25, "fontStyle",  "bold");
+    obj.label25:setFontSize(14);
 
     obj.edit25 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit25:setParent(obj.layout25);
@@ -650,6 +675,7 @@ local function constructNew_frmAtributosPericias()
     obj.label26:setName("label26");
     obj.label26:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label26, "fontStyle",  "bold");
+    obj.label26:setFontSize(14);
 
     obj.edit26 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit26:setParent(obj.layout26);
@@ -674,6 +700,7 @@ local function constructNew_frmAtributosPericias()
     obj.label27:setName("label27");
     obj.label27:setFontColor("#32CD32");
     lfm_setPropAsString(obj.label27, "fontStyle",  "bold");
+    obj.label27:setFontSize(14);
 
     obj.edit27 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit27:setParent(obj.layout27);
@@ -698,6 +725,7 @@ local function constructNew_frmAtributosPericias()
     obj.label28:setName("label28");
     obj.label28:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label28, "fontStyle",  "bold");
+    obj.label28:setFontSize(14);
 
     obj.edit28 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit28:setParent(obj.layout28);
@@ -722,6 +750,7 @@ local function constructNew_frmAtributosPericias()
     obj.label29:setName("label29");
     obj.label29:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label29, "fontStyle",  "bold");
+    obj.label29:setFontSize(14);
 
     obj.edit29 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit29:setParent(obj.layout29);
@@ -746,6 +775,7 @@ local function constructNew_frmAtributosPericias()
     obj.label30:setName("label30");
     obj.label30:setFontColor("#FFFF00");
     lfm_setPropAsString(obj.label30, "fontStyle",  "bold");
+    obj.label30:setFontSize(14);
 
     obj.edit30 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit30:setParent(obj.layout30);
@@ -770,6 +800,7 @@ local function constructNew_frmAtributosPericias()
     obj.label31:setName("label31");
     obj.label31:setFontColor("#40E0D0");
     lfm_setPropAsString(obj.label31, "fontStyle",  "bold");
+    obj.label31:setFontSize(14);
 
     obj.edit31 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit31:setParent(obj.layout31);
@@ -794,6 +825,7 @@ local function constructNew_frmAtributosPericias()
     obj.label32:setName("label32");
     obj.label32:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label32, "fontStyle",  "bold");
+    obj.label32:setFontSize(14);
 
     obj.edit32 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit32:setParent(obj.layout32);
@@ -818,6 +850,7 @@ local function constructNew_frmAtributosPericias()
     obj.label33:setName("label33");
     obj.label33:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label33, "fontStyle",  "bold");
+    obj.label33:setFontSize(14);
 
     obj.edit33 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit33:setParent(obj.layout33);
@@ -842,6 +875,7 @@ local function constructNew_frmAtributosPericias()
     obj.label34:setName("label34");
     obj.label34:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label34, "fontStyle",  "bold");
+    obj.label34:setFontSize(14);
 
     obj.edit34 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit34:setParent(obj.layout34);
@@ -866,6 +900,7 @@ local function constructNew_frmAtributosPericias()
     obj.label35:setName("label35");
     obj.label35:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label35, "fontStyle",  "bold");
+    obj.label35:setFontSize(14);
 
     obj.edit35 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit35:setParent(obj.layout35);
@@ -1005,6 +1040,7 @@ local function constructNew_frmAtributosPericias()
     obj.label36:setName("label36");
     obj.label36:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label36, "fontStyle",  "bold");
+    obj.label36:setFontSize(14);
 
     obj.edit46 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit46:setParent(obj.layout41);
@@ -1029,6 +1065,7 @@ local function constructNew_frmAtributosPericias()
     obj.label37:setName("label37");
     obj.label37:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label37, "fontStyle",  "bold");
+    obj.label37:setFontSize(14);
 
     obj.edit47 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit47:setParent(obj.layout42);
@@ -1053,6 +1090,7 @@ local function constructNew_frmAtributosPericias()
     obj.label38:setName("label38");
     obj.label38:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label38, "fontStyle",  "bold");
+    obj.label38:setFontSize(14);
 
     obj.edit48 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit48:setParent(obj.layout43);
@@ -1077,6 +1115,7 @@ local function constructNew_frmAtributosPericias()
     obj.label39:setName("label39");
     obj.label39:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label39, "fontStyle",  "bold");
+    obj.label39:setFontSize(14);
 
     obj.edit49 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit49:setParent(obj.layout44);
@@ -1101,6 +1140,7 @@ local function constructNew_frmAtributosPericias()
     obj.label40:setName("label40");
     obj.label40:setFontColor("#4169E1");
     lfm_setPropAsString(obj.label40, "fontStyle",  "bold");
+    obj.label40:setFontSize(14);
 
     obj.edit50 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit50:setParent(obj.layout45);
