@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form formType="sheetTemplate" dataType="Alvorecer_Tormenta_20" title="Alvorecer Tormenta 20" name="frmAlvorecerT20"  align="client" theme="dark">
+    <tabControl align="client">
+        <tab title="Frente">
+            <import file="Frente.lfm"/>
+        </tab>
+        <tab title="Atributos e Pericias">
+            <import file="AtributosPericias.lfm"/>
+        </tab>
+        <tab title="Equipamentos">
+            <import file="Equipamentos.lfm"/>
+        </tab>
+        <tab title="Magias, Poderes e Talentos">
+            <import file="PoderesMagias.lfm"/>
+        </tab>
+        <tab title="Magias de Esferas">
+            <import file="EsferasMagias.lfm"/>
+        </tab>
+        <tab title="Background, Personalidade e Anotações">
+            <import file="PersonagemSobre.lfm"/>
+        </tab>
+        <tab title="Histórico de Modificações para o Personagem">
+            <import file="historicodeModificacoes.lfm"/>
+        </tab>
+    </tabControl>
+
+
+</form>

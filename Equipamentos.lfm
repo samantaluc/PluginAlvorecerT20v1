@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmEquipamentos" align="client"> 
+	<scrollBox align="client">
+        <layout left="10" top="20" height="25" width="200">    
+                <!-- Armadura -->      
+                <label align="left" text="Armadura: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeArmadura"/> 
+        </layout>
+        <layout left="250" top="20" height="25" width="200">    
+                <!-- Armadura -->      
+                <label align="left" text="Bônus de Defesa: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="ArmaduraCA"/> 
+        </layout> 
+        <layout left="500" top="20" height="25" width="200">    
+                <!-- Armadura -->      
+                <label align="left" text="Penalidade: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="PenalidadeArmadura"/> 
+        </layout>
+        <layout left="800" top="20" height="25" width="200">    
+                <!-- Armadura -->      
+                <label align="left" text="Mod Atb p/ DEF: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="modAtributoCA"/> 
+        </layout>
+        <layout left="10" top="50" height="25" width="200">    
+                <!-- Escudo -->      
+                <label align="left" text="Escudo: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeEscudo"/> 
+        </layout>
+        <layout left="250" top="50" height="25" width="200">    
+                <!-- Escudo -->      
+                <label align="left" text="Bônus de Defesa: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="EscudoCA"/> 
+        </layout> 
+        <layout left="500" top="50" height="25" width="200">    
+                <!-- Escudo -->      
+                <label align="left" text="Penalidade: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="PenalidadeEscudo"/> 
+        </layout> 
+        <layout left="800" top="50" height="25" width="200">   
+                        <!-- Extra -->      
+                <label align="left" text="Bônus Extra DEF: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="bonusCA"/> 
+        </layout>
+        <!-- Arma 1-->
+        <layout left="10" top="80" height="25" width="200"> 
+                <label align="left" text="Arma: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeArma1"/> 
+        </layout>
+        <layout left="250" top="80" height="25" width="200">    
+                <label align="left" text="Bônus: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="bonusArma1"/> 
+        </layout> 
+        <layout left="500" top="80" height="25" width="200">    
+                <label align="left" text="Dano/Crítico: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="dcArma1"/> 
+        </layout> 
+        <layout left="800" top="80" height="25" width="200">   
+                <label align="left" text="Tipo: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="tipoArma1"/> 
+        </layout>
+        <layout left="1100" top="80" height="25" width="200">   
+                <label align="left" text="Alcance: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="alcanceArma1"/> 
+        </layout>
+        <!-- Arma 2-->
+        <layout left="10" top="110" height="25" width="200"> 
+                <label align="left" text="Arma: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeArma2"/> 
+        </layout>
+        <layout left="250" top="110" height="25" width="200">    
+                <label align="left" text="Bônus: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="bonusArma2"/> 
+        </layout> 
+        <layout left="500" top="110" height="25" width="200">    
+                <label align="left" text="Dano/Crítico: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="dcArma2"/> 
+        </layout> 
+        <layout left="800" top="110" height="25" width="200">   
+                <label align="left" text="Tipo: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="tipoArma2"/> 
+        </layout>
+        <layout left="1100" top="110" height="25" width="200">   
+                <label align="left" text="Alcance: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="alcanceArma2"/> 
+        </layout>
+        <!-- Arma 3-->
+        <layout left="10" top="140" height="25" width="200"> 
+                <label align="left" text="Arma: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeArma3"/> 
+        </layout>
+        <layout left="250" top="140" height="25" width="200">    
+                <label align="left" text="Bônus: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="bonusArma3"/> 
+        </layout> 
+        <layout left="500" top="140" height="25" width="200">    
+                <label align="left" text="Dano/Crítico: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="dcArma3"/> 
+        </layout> 
+        <layout left="800" top="140" height="25" width="200">   
+                <label align="left" text="Tipo: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="tipoArma3"/> 
+        </layout>
+        <layout left="1100" top="140" height="25" width="200">   
+                <label align="left" text="Alcance: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="alcanceArma3"/> 
+        </layout>
+        <!-- Arma 4-->
+        <layout left="10" top="170" height="25" width="200"> 
+                <label align="left" text="Arma: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeArma4"/> 
+        </layout>
+        <layout left="250" top="170" height="25" width="200">    
+                <label align="left" text="Bônus: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="bonusArma4"/> 
+        </layout> 
+        <layout left="500" top="170" height="25" width="200">    
+                <label align="left" text="Dano/Crítico: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="dcArma4"/> 
+        </layout> 
+        <layout left="800" top="170" height="25" width="200">   
+                <label align="left" text="Tipo: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="tipoArma4"/> 
+        </layout>
+        <layout left="1100" top="170" height="25" width="200">   
+                <label align="left" text="Alcance: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="alcanceArma4"/> 
+        </layout>
+        <!-- Arma 5-->
+        <layout left="10" top="200" height="25" width="200"> 
+                <label align="left" text="Arma: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeArma5"/> 
+        </layout>
+        <layout left="250" top="200" height="25" width="200">    
+                <label align="left" text="Bônus: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="bonusArma5"/> 
+        </layout> 
+        <layout left="500" top="200" height="25" width="200">    
+                <label align="left" text="Dano/Crítico: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="dcArma5"/> 
+        </layout> 
+        <layout left="800" top="200" height="25" width="200">   
+                <label align="left" text="Tipo: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="tipoArma5"/> 
+        </layout>
+        <layout left="1100" top="200" height="25" width="200">   
+                <label align="left" text="Alcance: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="alcanceArma5"/> 
+        </layout>
+
+<!--Lista para editar-->
+
+        <layout align="top" height="30" margins="{bottom=4, top=240}">
+                <button text="Criar Novo Item" width="150" align="left">
+                        <event name="onClick">
+                                -- Usuário clicou no botão de criar novo item.
+                                -- Vamos inserir um novo item no nosso recordList                              
+                                self.rclListaDosItens:append();
+                        </event>
+                </button>
+        </layout>       
+
+        <!-- recordList, representando a lista -->
+        <recordList name="rclListaDosItens" field="campoDosItens" templateForm="frmItemDaLista" align="top" selectable="true" layout="horizontal" height="40">                       
+
+                <event name="onSelect">
+                        --[[
+                        Este evento é chamado quando o usuário selecionar/deselecionar itens da lista. Quando o usuário selecionar, vamos fazer nosso dataScopeBox (e todas as tag dentro dele) salvar e carregar dados no   objeto Nodo (NodeDatabase) do item selecionado.
+
+                      --]]                      
+                      local node = self.rclListaDosItens.selectedNode; 
+                             self.boxDetalhesDoItem.node = node;                       
+                      -- a caixa de detalhe só ficará visível se houver item selecionado
+                              self.boxDetalhesDoItem.visible = (node ~= nil);
+
+               </event>
+                               <event name="onCompare">
+                return utils.compareStringPtBr(nodeA.campoTitulo, nodeB.campoTitulo);
+        </event>
+        </recordList>                     
+
+        <!-- dataScopeBox representando a nossa caixa de detalhes -->  
+
+        <dataScopeBox name="boxDetalhesDoItem" visible="false" align="client"
+                      margins="{left=4, right=4, top=4}">
+                <!-- Faça um layout "bonito" para sua caixa de detalhes =). Utilize a propriedade "field" nas tags aqui dentro   -->      
+
+                <rectangle align="client" color="black" xradius="10" yradius="10"
+                           padding="{top=3, left=3, right=3, bottom=3}">                                   
+<scrollBox align="client">
+                         <layout align="top" height="30" margins="{bottom=4}">
+                                <label align="left" text="Item:" autoSize="true"/>
+                                <edit align="client" field="campoTitulo"/>
+                                                               
+
+                               
+
+                        </layout>                       
+
+                        <layout align="top" height="130">              
+                                <image align="left" editable="true" animate="true" field="campoURLImagem" width="300"/>                               
+
+                                <layout align="client" margins="{left=2}">
+                                        <edit align="top" field="campoSubTitulo" height="30"/>
+                                        <textEditor align="top" field="campoTextoGrande" height="100"/>
+                                </layout>                      
+                        </layout>
+                        </scrollBox>
+                </rectangle>
+        </dataScopeBox>
+        <layout left="10" top="510" height="25" width="200">   
+                <label align="left" text="Dinheiro: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="dinheiro"/> 
+        </layout>
+</scrollBox>
+</form>

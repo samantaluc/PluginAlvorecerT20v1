@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmAtributosPericias" align="client">       
+	<scrollBox align="client">
+        <style>
+                label {
+                        fontStyle: bold;
+                }
+                .Forca{
+                        fontColor:#FF0000;
+                }
+                .Destreza{
+                        fontColor:#32CD32;
+                }
+                .Constituicao{
+                        fontColor:#ADFF2F;
+                }
+                .Inteligencia{
+                        fontColor:#4169E1;
+                }
+                .Sabedoria{
+                        fontColor:#40E0D0;
+                }
+                .Carisma{
+                        fontColor:#FFFF00;
+                }
+
+        </style>
+
+        <!-- Atributos -->
+        <layout left="10" top="20" height="25" width="200">    
+                <!-- Força -->      
+                <label class="Forca"  align="left" text="Força: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="forca"/> 
+        </layout>         
+        <layout left="250" top="20" height="25" width="200">    
+                <!-- Destreza -->      
+                <label class="Destreza" align="left" text="Destreza: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="destreza"/> 
+        </layout>   
+        <layout left="500" top="20" height="25" width="200">    
+                <!-- Constituição -->      
+                <label class="Constituicao" align="left" text="Constituição: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="constituicao"/> 
+        </layout>   
+        <layout left="10" top="50" height="25" width="200">    
+                <!-- Inteligência -->      
+                <label class="Inteligencia" align="left" text="Inteligência: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="inteligencia"/> 
+        </layout>   
+        <layout left="250" top="50" height="25" width="200">    
+                <!-- Sabedoria -->      
+                <label class="Sabedoria" align="left" text="Sabedoria: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="sabedoria"/> 
+        </layout>   
+        <layout left="500" top="50" height="25" width="200">    
+                <!-- Carisma -->      
+                <label class="Carisma" align="left" text="Carisma: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="carisma"/> 
+        </layout>
+        <!-- Pericias -->
+                <layout left="10" top="80" height="25" width="200">    
+                <!-- Acrobacia -->      
+                <label class="Destreza" align="left" text="Acrobacia: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="acrobacia"/> 
+        </layout>   
+        <layout left="250" top="80" height="25" width="200">    
+                <!-- Adestramento -->      
+                <label class="Carisma" align="left" text="Adestramento: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="adestramento"/> 
+        </layout>  
+        <layout left="500" top="80" height="25" width="200">    
+                <!-- Atletismo -->      
+                <label class="Forca" align="left" text="Atletismo: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="atletismo"/> 
+        </layout>  
+        <layout left="10" top="110" height="25" width="200">    
+                <!-- Atuação -->      
+                <label class="Carisma" align="left" text="Atuação: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="atuacao"/> 
+        </layout> 
+                <layout left="250" top="110" height="25" width="200">    
+                <!-- Cavalgar -->      
+                <label class="Destreza" align="left" text="Cavalgar: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="cavalgar"/> 
+        </layout>   
+        <layout left="500" top="110" height="25" width="200">    
+                <!-- Cura -->      
+                <label class="Sabedoria" align="left" text="Cura: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="cura"/> 
+        </layout>   
+        <layout left="10" top="140" height="25" width="200">    
+                <!-- Diplomacia -->      
+                <label class="Carisma" align="left" text="Diplomacia: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="diplomacia"/> 
+        </layout> 
+                <layout left="250" top="140" height="25" width="200">    
+                <!-- Enganação -->      
+                <label class="Carisma" align="left" text="Enganação: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="enganacao"/> 
+        </layout>   
+        <layout left="500" top="140" height="25" width="200">    
+                <!-- Fortitude -->      
+                <label class="Constituicao" align="left" text="Fortitude: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="fortitude"/> 
+        </layout>   
+        <layout left="10" top="170" height="25" width="200">    
+                <!-- Furtividade -->      
+                <label class="Destreza" align="left" text="Furtividade: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="furtividade"/> 
+        </layout> 
+                <layout left="250" top="170" height="25" width="200">    
+                <!-- Iniciativa -->      
+                <label class="Destreza" align="left" text="Iniciativa: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="iniciativa"/> 
+        </layout>   
+        <layout left="500" top="170" height="25" width="200">    
+                <!-- Intimidação -->      
+                <label class="Carisma" align="left" text="Intimidação: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="intimidacao"/> 
+        </layout>   
+        <layout left="10" top="200" height="25" width="200">    
+                <!-- Intuição -->      
+                <label class="Sabedoria" align="left" text="Intuição: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="intuicao"/> 
+        </layout> 
+                <layout left="250" top="200" height="25" width="200">    
+                <!-- Investigação -->      
+                <label class="Inteligencia" align="left" text="Investigação: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="investigacao"/> 
+        </layout>   
+        <layout left="500" top="200" height="25" width="200">    
+                <!-- Jogatina -->      
+                <label class="Carisma" align="left" text="Jogatina: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="jogatina"/> 
+        </layout>   
+        <layout left="10" top="230" height="25" width="200">    
+                <!-- Ladinagem -->      
+                <label class="Destreza" align="left" text="Ladinagem: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="ladinagem"/> 
+        </layout> 
+                <layout left="250" top="230" height="25" width="200">    
+                <!-- Luta -->      
+                <label class="Forca" align="left" text="Luta: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="luta"/> 
+        </layout>   
+        <layout left="500" top="230" height="25" width="200">    
+                <!-- Percepção -->      
+                <label class="Sabedoria" align="left" text="Percepção: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="percepcao"/> 
+        </layout>   
+        <layout left="10" top="260" height="25" width="200">    
+                <!-- Pilotagem -->      
+                <label class="Destreza" align="left" text="Pilotagem: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="pilotagem"/> 
+        </layout> 
+                <layout left="250" top="260" height="25" width="200">    
+                <!-- Pontaria -->      
+                <label class="Destreza" align="left" text="Pontaria: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="pontaria"/> 
+        </layout>   
+        <layout left="500" top="260" height="25" width="200">    
+                <!-- Reflexos -->      
+                <label class="Destreza" align="left" text="Reflexos: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="reflexos"/> 
+        </layout>   
+        <layout left="10" top="290" height="25" width="200">    
+                <!-- Religião -->      
+                <label  class="Sabedoria" align="left" text="Religião: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="religiao"/> 
+        </layout> 
+                <layout left="250" top="290" height="25" width="200">    
+                <!-- Sobrevivência -->      
+                <label  class="Sabedoria" align="left" text="Sobrevivência: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="sobrevivencia"/> 
+        </layout>   
+        <layout left="500" top="290" height="25" width="200">    
+                <!-- Sedução -->      
+                <label class="Carisma" align="left" text="Sedução: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="seducao"/> 
+        </layout>   
+        <layout left="10" top="320" height="25" width="200">    
+                <!-- Vontade -->      
+                <label class="Sabedoria" align="left" text="Vontade: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="vontade"/> 
+        </layout> 
+
+                <layout left="10" top="350" height="25" width="200">    
+                <!-- Conhecimentos -->      
+                <label class="Inteligencia" align="left" text="Conhecimento: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="conhecimento"/> 
+        </layout>   
+        <layout left="250" top="350" height="25" width="200">    
+                <!-- Guerra -->      
+                <label class="Inteligencia" align="left" text="Guerra: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="guerra"/> 
+        </layout>   
+        <layout left="500" top="350" height="25" width="200">    
+                <!-- Misticismo -->      
+                <label class="Inteligencia" align="left" text="Misticismo: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="misticismo"/> 
+        </layout> 
+                <layout left="10" top="380" height="25" width="200">    
+                <!-- Tecnologia -->      
+                <label class="Inteligencia" align="left" text="Tecnologia: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="tecnologia"/> 
+        </layout>   
+        <layout left="250" top="380" height="25" width="200">    
+                <!-- Conhecimento 1 -->      
+                <edit class="Inteligencia" align="left" horzTextAlign="center" field="Cunhecimento1"/>
+                <edit align="client" horzTextAlign="center" field="conhecimento1"/> 
+        </layout>   
+        <layout left="500" top="380" height="25" width="200">    
+                <!-- Conhecimento 2 -->      
+                <edit class="Inteligencia" align="left" horzTextAlign="center" field="Cunhecimento2"/>
+                <edit align="client" horzTextAlign="center" field="conhecimento2"/> 
+        </layout> 
+                <layout left="10" top="410" height="25" width="200">    
+                <!-- Conhecimento 3 -->      
+                <edit class="Inteligencia" align="left" horzTextAlign="center" field="Cunhecimento3"/>
+                <edit align="client" horzTextAlign="center" field="conhecimento3"/> 
+        </layout>   
+        <layout left="250" top="410" height="25" width="200">    
+                <!-- Conhecimento 4 -->      
+                <edit class="Inteligencia" align="left" horzTextAlign="center" field="Cunhecimento4"/>
+                <edit align="client" horzTextAlign="center" field="conhecimento4"/> 
+        </layout>   
+        <layout left="500" top="410" height="25" width="200">    
+                <!-- Conhecimento 5 -->      
+                <edit class="Inteligencia" align="left" horzTextAlign="center" field="Cunhecimento5"/>
+                <edit align="client" horzTextAlign="center" field="conhecimento5"/> 
+        </layout> 
+                <layout left="10" top="440" height="25" width="200">    
+                <!-- Alfaiate -->      
+                <label class="Inteligencia" align="left" text="Alfaiate: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="Alfaiate"/> 
+        </layout>   
+        <layout left="250" top="440" height="25" width="200">    
+                <!-- Alquimia -->      
+                <label class="Inteligencia" align="left" text="Alquimia: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="alquimia"/> 
+        </layout>   
+        <layout left="500" top="440" height="25" width="200">    
+                <!-- Armeiro -->      
+                <label class="Inteligencia" align="left" text="Armeiro: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="armeiro"/> 
+        </layout>  
+        <layout left="10" top="470" height="25" width="200">    
+                <!-- Artesanato -->      
+                <label class="Inteligencia" align="left" text="Artesanato: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="artesanato"/> 
+        </layout>
+        <layout left="250" top="470" height="25" width="200">    
+                <!-- Culinária -->      
+                <label class="Inteligencia" align="left" text="Culinária: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="culinaria"/> 
+        </layout>  
+</scrollBox>                
+</form>

@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmFrente" align="client"> 
+	<scrollBox align="client">
+        <!-- Aqui começa o layout da ficha -->
+        <layout left="10" top="02" height="25" width="400">   
+                <label align="left" text="Nome Completo: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomePersonagem"/>    
+        </layout>
+        <layout left="10" top="30" height="25" width="400">   
+                <label align="left" text="Classes e Níveis: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeClasses"/>    
+        </layout>
+        <layout left="10" top="60" height="25" width="250">   
+                <label align="left" text="Origem: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeOrigem"/>    
+        </layout> 
+        <layout left="10" top="90" height="25" width="250">   
+                <label align="left" text="Alinhamento: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeAlinhamento"/>    
+        </layout> 
+                <layout left="420" top="02" height="25" width="370">   
+                <label align="left" text="Parente / Legado: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeParenteDivino"/>    
+        </layout> 
+        <layout left="420" top="30" height="25" width="370">   
+                <label align="left" text="Benção: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeBencao"/>    
+        </layout>   
+        <layout left="300" top="60" height="25" width="250">   
+                <label align="left" text="Nascimento: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeNascimento"/>    
+        </layout> 
+        <layout left="580" top="60" height="25" width="210">   
+                <label align="left" text="Deslocamento: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeDeslocamento"/>    
+        </layout>
+        <layout left="300" top="90" height="25" width="490">   
+                <label align="left" text="Idiomas: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomeIdiomas"/>    
+        </layout>
+                <layout left="800" top="02" height="25" width="200">   
+                <label align="left" text="Panteão: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="nomePanteao"/>    
+        </layout>   
+        <layout left="800" top="30" height="25" width="200">   
+                <label align="left" text="HP: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="HP"/>    
+        </layout>
+        <layout left="800" top="60" height="25" width="200">   
+                <label align="left" text="MP: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="MP"/>    
+        </layout> 
+        <layout left="800" top="90" height="25" width="200">   
+                <label align="left" text="XP: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="XP"/>    
+        </layout> 
+        <layout left="800" top="120" height="25" width="200">   
+                <label align="left" text="Defesa: " autoSize="true"/>
+               <label field="modificadorDeCA" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>  
+        </layout> 
+<!-- Atributos -->
+        <layout left="10" top="90" height="80" width="200">    
+                <!-- Força -->      
+                <label align="left" text="Força: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeForca" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>                            
+                <layout left="250" top="90" height="80" width="200">    
+                <!-- Destreza -->      
+                <label align="left" text="Destreza: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeDestreza" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+                <layout left="500" top="90" height="80" width="200">    
+                <!-- Constituição -->      
+                <label align="left" text="Constituição: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeConstituicao" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+                <layout left="10" top="120" height="80" width="200">    
+                <!-- Inteligência -->      
+                <label align="left" text="Inteligência: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeInteligencia" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+                <layout left="250" top="120" height="80" width="200">    
+                <!-- Sabedoria -->      
+                <label align="left" text="Sabedoria: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeSabedoria" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+                <layout left="500" top="120" height="80" width="200">    
+                <!-- Carisma -->      
+                <label align="left" text="Carisma: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeCarisma" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+<!-- PEricias-->
+        <layout left="10" top="150" height="80" width="200">    
+                <!-- Acrobacia -->      
+                <label align="left" text="Acrobacia: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeAcrobacia" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="250" top="150" height="80" width="200">    
+                <!-- Adestramento -->      
+                <label align="left" text="Adestramento: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeAdestramento" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="500" top="150" height="80" width="200">    
+                <!-- Atletismo -->      
+                <label align="left" text="Atletismo: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeAtletismo" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="10" top="180" height="80" width="200">    
+                <!-- Atuação -->      
+               <label align="left" text="Atuação: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeAtuacao" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="250" top="180" height="80" width="200">    
+                <!-- Cavalgar -->      
+                <label align="left" text="Cavalgar: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeCavalgar" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="500" top="180" height="80" width="200">    
+                <!-- Curar -->      
+                <label align="left" text="Curar: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeCurar" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="10" top="210" height="80" width="200">    
+                <!-- Diplomacia -->      
+               <label align="left" text="Diplomacia: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeDiplomacia" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="250" top="210" height="80" width="200">    
+                <!-- Enganação -->      
+                <label align="left" text="Enganação: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeEnganacao" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="500" top="210" height="80" width="200">    
+                <!-- Fortitude -->      
+                <label align="left" text="Fortitude: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeFortitude" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="10" top="240" height="80" width="200">    
+                <!-- Furtividade -->      
+               <label align="left" text="Furtividade: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeFurtividade" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="250" top="240" height="80" width="200">    
+                <!-- Iniciativa -->      
+                <label align="left" text="Iniciativa: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeIniciativa" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="500" top="240" height="80" width="200">    
+                <!-- Intimidação -->      
+                <label align="left" text="Intimidação: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeIntimidacao" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="10" top="270" height="80" width="200">    
+                <!-- Intuição -->      
+               <label align="left" text="Intuição: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeIntuicao" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="250" top="270" height="80" width="200">    
+                <!-- Investigação -->      
+                <label align="left" text="Investigação: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeInvestigacao" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="500" top="270" height="80" width="200">    
+                <!-- Jogatina -->      
+                <label align="left" text="Jogatina: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeJogatina" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="10" top="300" height="80" width="200">    
+                <!-- Ladinagem -->      
+               <label align="left" text="Ladinagem *: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeLadinagem" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="250" top="300" height="80" width="200">    
+                <!-- Luta -->      
+                <label align="left" text="Luta: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeLuta" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="500" top="300" height="80" width="200">    
+                <!-- Percepção -->      
+                <label align="left" text="Percepção: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDePercepcao" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="10" top="330" height="80" width="200">    
+                <!-- Pilotagem -->      
+               <label align="left" text="Pilotagem: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDePilotagem" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="250" top="330" height="80" width="200">    
+                <!-- Pontaria -->      
+                <label align="left" text="Pontaria: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDePontaria" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="500" top="330" height="80" width="200">    
+                <!-- Reflexos -->      
+                <label align="left" text="Reflexos: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeReflexos" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="10" top="360" height="80" width="200">    
+                <!-- Religião -->      
+               <label align="left" text="Religião: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeReligiao" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="250" top="360" height="80" width="200">    
+                <!-- Sobrevivência -->      
+                <label align="left" text="Sobrevivência: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeSobrevivencia" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="500" top="360" height="80" width="200">    
+                <!-- Sedução -->      
+                <label align="left" text="Sedução: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeSeducao" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="10" top="390" height="80" width="200">    
+                <!-- Vontade -->      
+               <label align="left" text="Vontade: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeVontade" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="250" top="390" height="80" width="200">    
+                <!-- Conhecimento -->      
+                <label align="left" text="Conhecimento: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeConhecimento" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="500" top="390" height="80" width="200">    
+                <!-- Guerra -->      
+                <label align="left" text="Guerra: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeGuerra" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="10" top="420" height="80" width="200">    
+                <!-- Misticismo -->      
+               <label align="left" text="Misticismo: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeMisticismo" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="250" top="420" height="80" width="200">    
+                <!-- Tecnologia -->      
+                <label align="left" text="Tecnologia: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeTecnologia" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="500" top="420" height="80" width="200">    
+                <!-- Alfaiate -->      
+                <label align="left" text="Alfaiate: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeAlfaiate" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="10" top="450" height="80" width="200">    
+                <!-- Alquimia -->      
+               <label align="left" text="Alquimia: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeAlquimia" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="250" top="450" height="80" width="200">    
+                <!-- Armeiro -->      
+                <label align="left" text="Armeiro: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeArmeiro" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="500" top="450" height="80" width="200">    
+                <!-- Artesanato -->      
+                <label align="left" text="Artesanato: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeArtesanato" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="10" top="480" height="80" width="200">    
+                <!-- Culinária -->      
+               <label align="left" text="Culinária: " autoSize="true"/>
+                <!-- Modificador -->
+               <label field="modificadorDeCulinária" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="250" top="480" height="80" width="200">    
+                <!-- Conhecimento 1 -->      
+                <label field="Cunhecimento1" align="left" text="Cunhecimento1" 
+                      width="70" horzTextAlign="center"/>                
+                      <!-- Modificador -->
+                <label field="modificadorDeConhecimento1" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="500" top="480" height="80" width="200">    
+                <!-- Conhecimento 2 -->      
+                <label field="Cunhecimento2" align="left" text="Cunhecimento2" 
+                      width="70" horzTextAlign="center"/>                
+                      <!-- Modificador -->
+                <label field="modificadorDeConhecimento2" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="10" top="510" height="80" width="200">    
+                <!-- Conhecimento 3 -->      
+                <label field="Cunhecimento3" align="left" text="Cunhecimento3" 
+                      width="70" horzTextAlign="center"/>                
+                      <!-- Modificador -->
+                <label field="modificadorDeConhecimento3" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+        <layout left="250" top="510" height="80" width="200">    
+                <!-- Conhecimento 4 -->      
+                <label field="Cunhecimento4" align="left" text="Cunhecimento4" 
+                      width="70" horzTextAlign="center"/>                
+                      <!-- Modificador -->
+                <label field="modificadorDeConhecimento4" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>   
+        <layout left="500" top="510" height="80" width="200">    
+                <!-- Conhecimento 5 -->      
+                <label field="Cunhecimento5" align="left" text="Cunhecimento5" 
+                      width="70" horzTextAlign="center"/>                
+                      <!-- Modificador -->
+                <label field="modificadorDeConhecimento5" align="right" text="valor" 
+                      width="70" horzTextAlign="center"/>
+        </layout>
+
+<!-- Avatar -->
+		<rectangle left="700" top="160" width="350" height="350" color="black" strokeColor="white" strokeSize="1">
+			<label left="3" top="1" width="150" height="20" text="AVATAR"/>
+			<label left="100" top="40" width="100" height="200" text="Insira a imagem de seu personagem aqui" horzTextAlign="center"/>
+			<image align="client" field="avatar" editable="true" style="autoFit" margins="{left=2, right=2, top=2, bottom=2}">
+				<event name="OnStartDrag">
+				    drag:addData("imageURL", sheet.avatar);
+				</event>
+			</image>
+		</rectangle>
+<!-- Botao de Atualizar Ficha-->
+<button left="700" top="530" width="300" text="Atualizar o plugin" onClick="GUI.openInBrowser('https://github.com/rrpgfirecast/firecast/blob/master/Plugins/Sheets/Ficha%20Tormenta%2020/output/Ficha%20Tormenta%2020.rpk?raw=true')" />
+
+        <!-- Começa aqui os cálculos automáticos da ficha -->       
+        <dataLink field="forca">
+                <event name="onChange">
+                        local mod = math.floor(((sheet.forca or 10) / 2) - 5);
+                        if (mod >= 0) then
+                                mod = "+" .. mod;
+                        end;                       
+                        sheet.modificadorDeForca = mod;
+                </event>
+        </dataLink>
+        <dataLink field="destreza">
+                <event name="onChange">
+                        local mod = math.floor(((sheet.destreza or 10) / 2) - 5);
+                        if (mod >= 0) then
+                                mod = "+" .. mod;
+                        end;                       
+                        sheet.modificadorDeDestreza = mod;
+                </event>
+        </dataLink>  
+        <dataLink field="constituicao">
+                <event name="onChange">
+                        local mod = math.floor(((sheet.constituicao or 10) / 2) - 5);
+                        if (mod >= 0) then
+                                mod = "+" .. mod;
+                        end;                       
+                        sheet.modificadorDeConstituicao = mod;
+                </event>
+        </dataLink>  
+        <dataLink field="sabedoria">
+                <event name="onChange">
+                        local mod = math.floor(((sheet.sabedoria or 10) / 2) - 5);
+                        if (mod >= 0) then
+                                mod = "+" .. mod;
+                        end;                       
+                        sheet.modificadorDeSabedoria = mod;
+                </event>
+        </dataLink>
+        <dataLink field="inteligencia">
+                <event name="onChange">
+                        local mod = math.floor(((sheet.inteligencia or 10) / 2) - 5);
+                        if (mod >= 0) then
+                                mod = "+" .. mod;
+                        end;                       
+                        sheet.modificadorDeInteligencia = mod;
+                </event>
+        </dataLink>  
+        <dataLink field="carisma">
+                <event name="onChange">
+                        local mod = math.floor(((sheet.carisma or 10) / 2) - 5);
+                        if (mod >= 0) then
+                                mod = "+" .. mod;
+                        end;                       
+                        sheet.modificadorDeCarisma = mod;
+                </event>
+        </dataLink>
+        <dataLink fields="{'modAtributoCA', 'ArmaduraCA', 'EscudoCA', 'bonusCA'}">
+                <event name="onChange">
+                        sheet.CA =
+                        (tonumber(10))+
+                        (tonumber(sheet.modAtributoCA)or 0) +
+                        (tonumber(sheet.ArmaduraCA)or 0) +
+                        (tonumber(sheet.EscudoCA)or 0) +  
+                        (tonumber(sheet.bonusCA)or 0);
+
+                        if sheet.CA >=0 then                       
+                        sheet.modificadorDeCA = "+" .. sheet.CA;
+                        end;
+                </event>
+        </dataLink>
+        <!--Pericias Comuns-->
+        <dataLink fields="{'modificadorDeDestreza', 'modificadorDeForca', 'modificadorDeCarisma', 'modificadorDeSabedoria',
+        'modificadorDeConstituicao', 'modificadorDeInteligencia',
+         'atletismo', 'atuacao', 'cavalgar', 'cura', 'diplomacia', 'enganacao', 'fortitude',
+        'iniciativa', 'intimidacao', 'intuicao', 'investigacao', 'luta', 'percepcao', 
+        'pontaria', 'reflexos', 'seducao', 'sobrevivencia', 'vontade'}">
+                <event name="onChange">
+                        sheet.atle =
+                        (tonumber(sheet.modificadorDeForca)or 0) +
+                        (tonumber(sheet.atletismo)or 0);
+                        sheet.atua =
+                        (tonumber(sheet.modificadorDeCarisma)or 0) +
+                        (tonumber(sheet.atuacao)or 0);
+                        sheet.caval =
+                        (tonumber(sheet.modificadorDeDestreza)or 0) +
+                        (tonumber(sheet.cavalgar)or 0);
+                        sheet.cure =
+                        (tonumber(sheet.modificadorDeSabedoria)or 0) +
+                        (tonumber(sheet.curar)or 0);
+                        sheet.diploma =
+                        (tonumber(sheet.modificadorDeCarisma)or 0) +
+                        (tonumber(sheet.diplomacia)or 0);
+                        sheet.engana =
+                        (tonumber(sheet.modificadorDeCarisma)or 0) +
+                        (tonumber(sheet.enganacao)or 0);                        
+                        sheet.fort =
+                        (tonumber(sheet.modificadorDeConstituicao)or 0) +
+                        (tonumber(sheet.fortitude)or 0);
+                        sheet.inic =
+                        (tonumber(sheet.modificadorDeDestreza)or 0) +
+                        (tonumber(sheet.iniciativa)or 0);
+                        sheet.intim =
+                        (tonumber(sheet.modificadorDeCarisma)or 0) +
+                        (tonumber(sheet.intimidacao)or 0);                        
+                        sheet.intui =
+                        (tonumber(sheet.modificadorDeSabedoria)or 0) +
+                        (tonumber(sheet.intuicao)or 0);
+                        sheet.inves =
+                        (tonumber(sheet.modificadorDeInteligencia)or 0) +
+                        (tonumber(sheet.investigacao)or 0);
+                        sheet.fight =
+                        (tonumber(sheet.modificadorDeForca)or 0) +
+                        (tonumber(sheet.luta)or 0);                        
+                        sheet.percep =
+                        (tonumber(sheet.modificadorDeSabedoria)or 0) +
+                        (tonumber(sheet.percepcao)or 0);
+                        sheet.pontar =
+                        (tonumber(sheet.modificadorDeDestreza)or 0) +
+                        (tonumber(sheet.pontaria)or 0);
+                        sheet.reflex =
+                        (tonumber(sheet.modificadorDeDestreza)or 0) +
+                        (tonumber(sheet.reflexos)or 0);                        
+                        sheet.seduc =
+                        (tonumber(sheet.modificadorDeCarisma)or 0) +
+                        (tonumber(sheet.seducao)or 0);
+                        sheet.sobrev =
+                        (tonumber(sheet.modificadorDeSabedoria)or 0) +
+                        (tonumber(sheet.sobrevivencia)or 0);
+                        sheet.vontad =
+                        (tonumber(sheet.modificadorDeSabedoria)or 0) +
+                        (tonumber(sheet.vontade)or 0);
+
+
+                        if sheet.atle >=0  then                       
+                        sheet.modificadorDeAtletismo = "+" .. sheet.atle;
+                        end;
+                        if sheet.atua >=0  then                       
+                        sheet.modificadorDeAtuacao = "+" .. sheet.atua;
+                        end;
+                        if sheet.caval  then                       
+                        sheet.modificadorDeCavalgar = "+" .. sheet.caval;
+                        end;
+                        if sheet.cure >=0  then                       
+                        sheet.modificadorDeCurar = "+" .. sheet.cure;
+                        end;
+                        if sheet.diploma >=0  then                       
+                        sheet.modificadorDeDiplomacia = "+" .. sheet.diploma;
+                        end;
+                        if sheet.engana  then                       
+                        sheet.modificadorDeEnganacao = "+" .. sheet.engana;
+                        end;
+                        if sheet.fort >=0  then                       
+                        sheet.modificadorDeFortitude = "+" .. sheet.fort;
+                        end;
+                        if sheet.inic >=0  then                       
+                        sheet.modificadorDeIniciativa = "+" .. sheet.inic;
+                        end;
+                        if sheet.intim  then                       
+                        sheet.modificadorDeIntimidacao = "+" .. sheet.intim;
+                        end;
+                        if sheet.intui >=0  then                       
+                        sheet.modificadorDeIntuicao = "+" .. sheet.intui;
+                        end;
+                        if sheet.inves >=0  then                       
+                        sheet.modificadorDeInvestigacao = "+" .. sheet.inves;
+                        end;
+                        if sheet.fight  then                       
+                        sheet.modificadorDeLuta = "+" .. sheet.fight;
+                        end;
+                        if sheet.percep >=0  then                       
+                        sheet.modificadorDePercepcao = "+" .. sheet.percep;
+                        end;
+                        if sheet.reflex >=0  then                       
+                        sheet.modificadorDeReflexos = "+" .. sheet.reflex;
+                        end;
+                        if sheet.pontar  then                       
+                        sheet.modificadorDePontaria = "+" .. sheet.pontar;
+                        end;
+                        if sheet.seduc >=0  then                       
+                        sheet.modificadorDeSeducao = "+" .. sheet.seduc;
+                        end;
+                        if sheet.sobrev >=0  then                       
+                        sheet.modificadorDeSobrevivencia = "+" .. sheet.sobrev;
+                        end;
+                        if sheet.vontad  then                       
+                        sheet.modificadorDeVontade = "+" .. sheet.vontad;
+                        end;
+                </event>
+        </dataLink>
+        <!--Pericias que tem penalidade de Armadura-->
+        <dataLink fields="{'modificadorDeDestreza', 'acrobacia', 'furtividade', 'ladinagem', 'PenalidadeArmadura', 'PenalidadeEscudo'}">
+                <event name="onChange">
+                        sheet.acrobaciaA =
+                        (tonumber(sheet.modificadorDeDestreza)or 0) +
+                        (tonumber(sheet.acrobacia)or 0) -
+                        (tonumber(sheet.PenalidadeArmadura)or 0) -
+                        (tonumber(sheet.PenalidadeEscudo)or 0);
+                        sheet.furtividadeA =
+                        (tonumber(sheet.modificadorDeDestreza)or 0) +
+                        (tonumber(sheet.furtividade)or 0) -
+                        (tonumber(sheet.PenalidadeArmadura)or 0) -
+                        (tonumber(sheet.PenalidadeEscudo)or 0);
+                        sheet.ladinagemA =
+                        (tonumber(sheet.modificadorDeDestreza)or 0) +
+                        (tonumber(sheet.ladinagem)or 0) -
+                        (tonumber(sheet.PenalidadeArmadura)or 0) -
+                        (tonumber(sheet.PenalidadeEscudo)or 0);
+
+                        if sheet.acrobaciaA  then                       
+                        sheet.modificadorDeAcrobacia = sheet.acrobaciaA;
+                        end;
+                        if sheet.furtividadeA  then                       
+                        sheet.modificadorDeFurtividade = sheet.furtividadeA;
+                        end;
+                        if sheet.ladinagemA  then                       
+                        sheet.modificadorDeLadinagem = sheet.ladinagemA;
+                        end;
+                </event>
+        </dataLink>
+        <!-- Pericias que precisam ser treinadas-->
+        <dataLink fields="{'modificadorDeCarisma', 'modificadorDeDestreza', 'modificadorDeInteligencia', 'modificadorDeSabedoria', 
+        'adestramento', 'jogatina', 'pilotagem', 'religiao', 'conhecimento', 'conhecimento1',
+        'conhecimento2','conhecimento3','conhecimento4','conhecimento5','guerra',
+        'misticismo', 'tecnologia', 'alfaiate', 'alquimia', 'armeiro', 'artesanato', 'culinaria'}">
+                <event name="onChange">
+                        local valorAdestramento = tonumber(sheet.adestramento);                      
+
+                                if (valorAdestramento ~= 0) then
+                                       sheet.modificadorDeAdestramento = math.floor(valorAdestramento + sheet.modificadorDeCarisma); 
+
+                                        if sheet.modificadorDeAdestramento > 0 then
+                                        sheet.modificadorDeAdestramento = "+" .. sheet.modificadorDeAdestramento;
+                                end;
+                                else
+                                        sheet.modificadorDeAdestramento = 0;
+                                end;
+                        
+                        local valorJogatina = tonumber(sheet.jogatina);                      
+
+                                if (valorJogatina ~= 0) then
+                                       sheet.modificadorDeJogatina = math.floor(valorJogatina + sheet.modificadorDeCarisma); 
+
+                                        if sheet.modificadorDeJogatina > 0 then
+                                        sheet.modificadorDeJogatina = "+" .. sheet.modificadorDeJogatina;
+                                end;
+                                else
+                                        sheet.modificadorDeJogatina = 0;
+                                end;
+                        
+                        local valorPilotagem = tonumber(sheet.pilotagem);                      
+
+                                if (valorPilotagem ~= 0) then
+                                       sheet.modificadorDePilotagem = math.floor(valorPilotagem + sheet.modificadorDeDestreza); 
+
+                                        if sheet.modificadorDePilotagem > 0 then
+                                        sheet.modificadorDePilotagem = "+" .. sheet.modificadorDePilotagem;
+                                end;
+                                else
+                                        sheet.modificadorDePilotagem = 0;
+                                end;
+                        
+                        local valorReligiao = tonumber(sheet.religiao);                      
+
+                                if (valorReligiao ~= 0) then
+                                       sheet.modificadorDeReligiao = math.floor(valorReligiao + sheet.modificadorDeSabedoria); 
+
+                                        if sheet.modificadorDeReligiao > 0 then
+                                        sheet.modificadorDeReligiao = "+" .. sheet.modificadorDeReligiao;
+                                end;
+                                else
+                                        sheet.modificadorDeReligiao = 0;
+                                end;
+
+                                local valorConhecimento = tonumber(sheet.conhecimento);                      
+
+                                if (valorConhecimento ~= 0) then
+                                       sheet.modificadorDeConhecimento = math.floor(valorConhecimento + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeConhecimento > 0 then
+                                        sheet.modificadorDeConhecimento = "+" .. sheet.modificadorDeConhecimento;
+                                end;
+                                else
+                                        sheet.modificadorDeConhecimento = 0;
+                                end;
+
+                                local valorConhecimento1 = tonumber(sheet.conhecimento1);                      
+
+                                if (valorConhecimento1 ~= 0) then
+                                       sheet.modificadorDeConhecimento1 = math.floor(valorConhecimento1 + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeConhecimento1 > 0 then
+                                        sheet.modificadorDeConhecimento1 = "+" .. sheet.modificadorDeConhecimento1;
+                                end;
+                                else
+                                        sheet.modificadorDeConhecimento1 = 0;
+                                end;
+
+                                local valorConhecimento2 = tonumber(sheet.conhecimento2);                      
+
+                                if (valorConhecimento2 ~= 0) then
+                                       sheet.modificadorDeConhecimento2 = math.floor(valorConhecimento2 + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeConhecimento2 > 0 then
+                                        sheet.modificadorDeConhecimento2 = "+" .. sheet.modificadorDeConhecimento2;
+                                end;
+                                else
+                                        sheet.modificadorDeConhecimento2 = 0;
+                                end;
+
+                                local valorConhecimento3 = tonumber(sheet.conhecimento3);                      
+
+                                if (valorConhecimento3 ~= 0) then
+                                       sheet.modificadorDeConhecimento3 = math.floor(valorConhecimento3 + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeConhecimento3 > 0 then
+                                        sheet.modificadorDeConhecimento3 = "+" .. sheet.modificadorDeConhecimento3;
+                                end;
+                                else
+                                        sheet.modificadorDeConhecimento3 = 0;
+                                end;
+                                
+                                local valorConhecimento4 = tonumber(sheet.conhecimento4);                      
+
+                                if (valorConhecimento4 ~= 0) then
+                                       sheet.modificadorDeConhecimento4 = math.floor(valorConhecimento4 + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeConhecimento4 > 0 then
+                                        sheet.modificadorDeConhecimento4 = "+" .. sheet.modificadorDeConhecimento4;
+                                end;
+                                else
+                                        sheet.modificadorDeConhecimento4 = 0;
+                                end;
+                                
+                                local valorConhecimento5 = tonumber(sheet.conhecimento5);                      
+
+                                if (valorConhecimento5 ~= 0) then
+                                       sheet.modificadorDeConhecimento5 = math.floor(valorConhecimento5 + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeConhecimento5 > 0 then
+                                        sheet.modificadorDeConhecimento5 = "+" .. sheet.modificadorDeConhecimento5;
+                                end;
+                                else
+                                        sheet.modificadorDeConhecimento5 = 0;
+                                end;
+
+                                local valorGuerra = tonumber(sheet.guerra);                      
+
+                                if (valorGuerra ~= 0) then
+                                       sheet.modificadorDeGuerra = math.floor(valorGuerra + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeGuerra > 0 then
+                                        sheet.modificadorDeGuerra = "+" .. sheet.modificadorDeGuerra;
+                                end;
+                                else
+                                        sheet.modificadorDeGuerra = 0;
+                                end;
+
+                                local valorMisticismo = tonumber(sheet.misticismo);                      
+
+                                if (valorMisticismo ~= 0) then
+                                       sheet.modificadorDeMisticismo = math.floor(valorMisticismo + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeMisticismo > 0 then
+                                        sheet.modificadorDeMisticismo = "+" .. sheet.modificadorDeMisticismo;
+                                end;
+                                else
+                                        sheet.modificadorDeMisticismo = 0;
+                                end;
+
+                                local valorTecnologia = tonumber(sheet.tecnologia);                      
+
+                                if (valorTecnologia ~= 0) then
+                                       sheet.modificadorDeTecnologia = math.floor(valorTecnologia + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeTecnologia > 0 then
+                                        sheet.modificadorDeTecnologia = "+" .. sheet.modificadorDeTecnologia;
+                                end;
+                                else
+                                        sheet.modificadorDeTecnologia = 0;
+                                end;
+
+                                local valorAlfaiate = tonumber(sheet.alfaiate);                      
+
+                                if (valorAlfaiate ~= 0) then
+                                       sheet.modificadorDeAlfaiate = math.floor(valorAlfaiate + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeAlfaiate > 0 then
+                                        sheet.modificadorDeAlfaiate = "+" .. sheet.modificadorDeAlfaiate;
+                                end;
+                                else
+                                        sheet.modificadorDeAlfaiate = 0;
+                                end;
+                                
+                                local valorAlquimia = tonumber(sheet.alquimia);                      
+
+                                if (valorAlquimia ~= 0) then
+                                       sheet.modificadorDeAlquimia = math.floor(valorAlquimia + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeAlquimia > 0 then
+                                        sheet.modificadorDeAlquimia = "+" .. sheet.modificadorDeAlquimia;
+                                end;
+                                else
+                                        sheet.modificadorDeAlquimia = 0;
+                                end;                                
+                                
+                                local valorArmeiro = tonumber(sheet.armeiro);                      
+
+                                if (valorArmeiro ~= 0) then
+                                       sheet.modificadorDeArmeiro = math.floor(valorArmeiro + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeArmeiro > 0 then
+                                        sheet.modificadorDeArmeiro = "+" .. sheet.modificadorDeArmeiro;
+                                end;
+                                else
+                                        sheet.modificadorDeArmeiro = 0;
+                                end;                                
+                                
+                                local valorArtesanato = tonumber(sheet.artesanato);                      
+
+                                if (valorArtesanato ~= 0) then
+                                       sheet.modificadorDeArtesanato = math.floor(valorArtesanato + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeArtesanato > 0 then
+                                        sheet.modificadorDeArtesanato = "+" .. sheet.modificadorDeArtesanato;
+                                end;
+                                else
+                                        sheet.modificadorDeArtesanato = 0;
+                                end;                                
+                                
+                                local valorCulinaria = tonumber(sheet.culinaria);                      
+
+                                if (valorCulinaria ~= 0) then
+                                       sheet.modificadorDeCulinaria = math.floor(valorCulinaria + sheet.modificadorDeInteligencia); 
+
+                                        if sheet.modificadorDeCulinaria > 0 then
+                                        sheet.modificadorDeCulinaria = "+" .. sheet.modificadorDeCulinaria;
+                                end;
+                                else
+                                        sheet.modificadorDeCulinaria = 0;
+                                end;
+                </event>
+        </dataLink>                   
+</scrollBox>
+</form>

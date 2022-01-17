@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmlistaMagias" align="client">
+        <!-- O título do item que aparece na lista -->
+
+<layout align="client" margins="{left=4, right=4, top=4, bottom=4}">
+                <!-- Botão para apagar o item da lista -->
+                <button align="left" width="25" text="X" margins="{left=5}">
+			<event name="onClick">
+				dialogs.confirmOkCancel("Tem certeza que quer apagar essa magia?",
+					function (confirmado)
+						if confirmado then
+							ndb.deleteNode(sheet);
+						end;
+				end);
+			</event>
+		</button>
+                <!-- O título do item que aparece na lista -->
+                <label align="client" text="Teste de label" field="campoTitulo" margins="{left=4}"/>
+                       
+        </layout>
+</form>

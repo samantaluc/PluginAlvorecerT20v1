@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmhistoricodeModificacoes" align="client">
+	<scrollBox align="client">
+		
+		<layout left="0" top="0" width="1366" height="768">
+			<rectangle align="client" color="black"/>
+			<label left="5" top="1" width="300" height="20" text="Historico de Modificações do Personagem"/>
+			<richEdit left="5" top="25" width="1280" height="720" field="background" backgroundColor="#333333" defaultFontSize="12" defaultFontColor="white"/>
+        </layout>
+
+	</scrollBox>
+</form>

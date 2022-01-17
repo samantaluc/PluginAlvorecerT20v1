@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmPersonagemSobre" align="client">
+	<scrollBox align="client">
+		<layout left="0" top="0" width="410" height="400">
+			<rectangle align="client" color="black"/>
+			<scrollBox align="client">
+			<label left="5" top="1" width="300" height="20" text="CARACTERÍSTICAS FÍSICAS E PSICOLÓGICAS"/>
+			<textEditor left="5" top="25" width="400" height="350" field="personalidade"/>
+			</scrollBox>
+		</layout>
+		<layout left="0" top="380" width="410" height="400">
+			<rectangle align="client" color="black"/>
+			<scrollBox align="client">
+			<label left="5" top="1" width="200" height="20" text="ANOTAÇÕES DO JOGADOR"/>
+			<textEditor left="5" top="25" width="400" height="350" field="anotacoes1"/>
+			</scrollBox>
+		</layout>
+		<layout left="410" top="0" width="600" height="400">
+			<rectangle align="client" color="black"/>
+			<label left="5" top="1" width="100" height="20" text="HISTORIA"/>
+			<richEdit left="5" top="25" width="580" height="350" field="background" backgroundColor="#333333" defaultFontSize="12" defaultFontColor="white"/>
+        </layout>
+        <layout left="410" top="380" width="600" height="400">
+			<rectangle align="client" color="black"/>
+			<scrollBox align="client">
+			<label left="5" top="1" width="200" height="20" text="ANOTAÇÕES DO MESTRE"/>
+			<textEditor left="5" top="25" width="400" height="350" field="anotacoes2"/>
+			</scrollBox>
+			<scrollBox align="client">
+			<label left="415" top="1" width="200" height="20" text="CARACTERISTICAS EXTRAS"/>
+			<textEditor left="415" top="25" width="170" height="350" field="extra"/>
+			</scrollBox>
+		</layout>
+	</scrollBox>
+</form>
