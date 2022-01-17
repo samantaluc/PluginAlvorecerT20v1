@@ -326,7 +326,7 @@ local function constructNew_frmAtributosPericias()
     obj.label12 = GUI.fromHandle(_obj_newObject("label"));
     obj.label12:setParent(obj.layout12);
     obj.label12:setAlign("left");
-    obj.label12:setText("Cura: ");
+    obj.label12:setText("Curar: ");
     obj.label12:setAutoSize(true);
     obj.label12:setName("label12");
     obj.label12:setFontColor("#40E0D0");
@@ -337,7 +337,7 @@ local function constructNew_frmAtributosPericias()
     obj.edit12:setParent(obj.layout12);
     obj.edit12:setAlign("client");
     obj.edit12:setHorzTextAlign("center");
-    obj.edit12:setField("cura");
+    obj.edit12:setField("curar");
     obj.edit12:setName("edit12");
 
     obj.layout13 = GUI.fromHandle(_obj_newObject("layout"));

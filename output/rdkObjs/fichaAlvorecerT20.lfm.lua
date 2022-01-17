@@ -2131,7 +2131,7 @@ local function constructNew_frmAlvorecerT20()
     obj.label119 = GUI.fromHandle(_obj_newObject("label"));
     obj.label119:setParent(obj.layout71);
     obj.label119:setAlign("left");
-    obj.label119:setText("Cura: ");
+    obj.label119:setText("Curar: ");
     obj.label119:setAutoSize(true);
     obj.label119:setName("label119");
     obj.label119:setFontColor("#40E0D0");
@@ -2142,7 +2142,7 @@ local function constructNew_frmAlvorecerT20()
     obj.edit25:setParent(obj.layout71);
     obj.edit25:setAlign("client");
     obj.edit25:setHorzTextAlign("center");
-    obj.edit25:setField("cura");
+    obj.edit25:setField("curar");
     obj.edit25:setName("edit25");
 
     obj.layout72 = GUI.fromHandle(_obj_newObject("layout"));

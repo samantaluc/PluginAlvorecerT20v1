@@ -87,8 +87,8 @@
         </layout>   
         <layout left="500" top="110" height="25" width="200">    
                 <!-- Cura -->      
-                <label class="Sabedoria" align="left" text="Cura: " autoSize="true"/>
-                <edit align="client" horzTextAlign="center" field="cura"/> 
+                <label class="Sabedoria" align="left" text="Curar: " autoSize="true"/>
+                <edit align="client" horzTextAlign="center" field="curar"/> 
         </layout>   
         <layout left="10" top="140" height="25" width="200">    
                 <!-- Diplomacia -->      
